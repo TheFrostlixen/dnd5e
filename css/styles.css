@@ -55,7 +55,7 @@ th {
 	width:329px;
 }
 
-.table-striped tbody tr:nth-of-type(odd) {
+.stripe {
 	background-color:rgba(1,1,1,0.05);
 }
 

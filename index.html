@@ -1,1 +1,3028 @@
-hello world
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	
+	<script type="text/javascript"> <!-- Filter List code -->
+	function create_links() {
+		var rows = $('tr.row');
+		Array.prototype.forEach.call( rows, function(el) {
+			var name = el.children[0].innerHTML.trim();
+			var spell = name.replace('\'','').replace('/','').replace(/ /g,'-') + el.children[3].innerHTML.trim().replace("Yes", "-Ritual");
+			
+			el.children[0].innerHTML = "<a href=\'https://www.dnd-spells.com/spell/" + spell + "\' target=\'_blank\'>" + name + "</a>";
+		});
+	}
+	
+	function update_list() {
+		var searchSchool = $('#school').val();
+		var searchLevel  = $('#level').val();
+		var searchClass  = $('#class_select').val();
+		var searchRitual = $('#ritual').is(':checked') ? "Yes" : "";
+		var searchConc   = $('#concentration').is(':checked') ? "Yes" : "";
+		var searchName   = $('#spell').val();
+		
+		var spellList = $('#spelltable').children();
+		for (i = 0; i < spellList.length; i++) {
+			$(spellList[i]).show();
+			// filter schools
+			(!~$($(spellList[i]).children()[1]).text().indexOf( searchSchool )) ? $(spellList[i]).hide() : null;
+			// filter levels
+			(!~$($(spellList[i]).children()[2]).text().indexOf( searchLevel )) ? $(spellList[i]).hide() : null;
+			// filter class
+			(!~$($(spellList[i]).children()[5]).text().indexOf( searchClass )) ? $(spellList[i]).hide() : null;
+			// filter rituals
+			(!~$($(spellList[i]).children()[3]).text().indexOf( searchRitual )) ? $(spellList[i]).hide() : null;
+			// filter concentration
+			(!~$($(spellList[i]).children()[4]).text().indexOf( searchConc )) ? $(spellList[i]).hide() : null;
+			// filter by spell name
+			(!~$($(spellList[i]).children()[0]).text().toLowerCase().indexOf( searchName.toLowerCase() )) ? $(spellList[i]).hide() : null;
+		}
+	}
+	
+	function reset_list() {
+		$('#school').val("");
+		$('#level').val("");
+		$('#class_select').val("");
+		$('#ritual').attr('checked', false);
+		$('#concentration').attr('checked', false);
+		$('#spell').val("");
+		
+		update_list();
+	}
+	</script>
+	
+	<link href="css/styles.css" rel="stylesheet">
+	<title>D&amp;D 5e Spells Index</title>
+</head>
+<body>
+	<div id="table">
+		<table class="table-striped">
+			<tr>
+				<th class="col1">
+					Search: <input id="spell" onkeyup="update_list()">
+				</th>
+				<th class="col2">
+					<select id="school" onchange="update_list()">
+						<option value="">All Schools</option>
+						<option value="Transmutation">Transmutation</option>
+						<option value="Evocation">Evocation</option>
+						<option value="Divination">Divination</option>
+						<option value="Enchantment">Enchantment</option>
+						<option value="Abjuration">Abjuration</option>
+						<option value="Illusion">Illusion</option>
+						<option value="Conjuration">Conjuration</option>
+						<option value="Necromancy">Necromancy</option>
+					</select>
+				</th>
+				<th class="col3">
+					<select id="level" onchange="update_list()">
+						<option value="">All Levels</option>
+						<option value="Cantrip">Cantrip</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+					</select>
+				</th>
+				<th class="col4">
+					<div>
+						<input id="ritual" onchange="update_list()" type="checkbox">
+						<label>Ritual
+						</label>
+					</div>
+				</th>
+				<th class="col5">
+					<div>
+						<input id="concentration" onchange="update_list()" type="checkbox">
+						<label>Concentration
+						</label>
+					</div>
+				</th>
+				<th class="col6">
+					<select id="class_select" id="class" onchange="update_list()">
+						<option value="">All Classes</option>
+						<option value="Bard">Bard</option>
+						<option value="Cleric">Cleric</option>
+						<option value="Druid">Druid</option>
+						<option value="Paladin">Paladin</option>
+						<option value="Ranger">Ranger</option>
+						<option value="Sorcerer">Sorcerer</option>
+						<option value="Warlock">Warlock</option>
+						<option value="Wizard">Wizard</option>
+					</select>
+					<button id="reset_button" onclick="reset_list()" type="button">X</button>
+				</th>
+			</tr>
+			
+			<tbody id="spelltable">
+				<tr class="row">
+					<td>Acid Splash</td>
+					<td>Conjuration</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Mending</td>
+					<td>Transmutation</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Cleric, Druid, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Dancing Lights</td>
+					<td>Evocation</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Minor Illusion</td>
+					<td>Illusion</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Mage Hand</td>
+					<td>Conjuration</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Poison Spray</td>
+					<td>Conjuration</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td></td>
+					<td>Druid, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Light</td>
+					<td>Evocation</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Cleric, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Prestidigitation</td>
+					<td>Transmutation</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Guidance</td>
+					<td>Divination</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td></td>
+					<td>Cleric, Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Produce Flame</td>
+					<td>Conjuration</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td></td>
+					<td>Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Vicious Mockery</td>
+					<td>Enchantment</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td></td>
+					<td>Bard</td>
+				</tr>
+				<tr class="row">
+					<td>Spare the Dying</td>
+					<td>Necromancy</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td></td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>True Strike</td>
+					<td>Divination</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Friends</td>
+					<td>Enchantment</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Druidcraft</td>
+					<td>Transmutation</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td></td>
+					<td>Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Ray of Frost</td>
+					<td>Evocation</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Resistance</td>
+					<td>Abjuration</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Cleric, Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Eldritch Blast</td>
+					<td>Evocation</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td></td>
+					<td>Warlock</td>
+				</tr>
+				<tr class="row">
+					<td>Fire Bolt</td>
+					<td>Evocation</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Thorn Whip</td>
+					<td>Transmutation</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td></td>
+					<td>Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Thaumaturgy</td>
+					<td>Transmutation</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td></td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Sacred Flame</td>
+					<td>Evocation</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td></td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Chill Touch</td>
+					<td>Necromancy</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Shillelagh</td>
+					<td>Transmutation</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td></td>
+					<td>Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Shocking Grasp</td>
+					<td>Evocation</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Blade Ward</td>
+					<td>Abjuration</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Message</td>
+					<td>Transmutation</td>
+					<td>Cantrip</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Heroism</td>
+					<td>Enchantment</td>
+					<td>1</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Feather Fall</td>
+					<td>Transmutation</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Hex</td>
+					<td>Enchantment</td>
+					<td>1</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Warlock</td>
+				</tr>
+				<tr class="row">
+					<td>Speak with Animals</td>
+					<td>Divination</td>
+					<td>1</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Bard, Druid, Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Hellish Rebuke</td>
+					<td>Evocation</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Warlock</td>
+				</tr>
+				<tr class="row">
+					<td>Find Familiar</td>
+					<td>Conjuration</td>
+					<td>1</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Bless</td>
+					<td>Enchantment</td>
+					<td>1</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Cleric, Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Sleep</td>
+					<td>Enchantment</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Silent Image</td>
+					<td>Illusion</td>
+					<td>1</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>False Life</td>
+					<td>Necromancy</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Faerie Fire</td>
+					<td>Evocation</td>
+					<td>1</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Hunter's Mark</td>
+					<td>Divination</td>
+					<td>1</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Expeditious Retreat</td>
+					<td>Transmutation</td>
+					<td>1</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Burning Hands</td>
+					<td>Evocation</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Healing Word</td>
+					<td>Evocation</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Cleric, Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Identify</td>
+					<td>Divination</td>
+					<td>1</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Bard, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Bane</td>
+					<td>Enchantment</td>
+					<td>1</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Charm Person</td>
+					<td>Enchantment</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Druid, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Tasha's Hideous Laughter</td>
+					<td>Enchantment</td>
+					<td>1</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Chromatic Orb</td>
+					<td>Evocation</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Shield of Faith</td>
+					<td>Abjuration</td>
+					<td>1</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Cleric, Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Shield</td>
+					<td>Abjuration</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Illusory Script</td>
+					<td>Illusion</td>
+					<td>1</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Bard, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Entangle</td>
+					<td>Conjuration</td>
+					<td>1</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Ensnaring Strike</td>
+					<td>Conjuration</td>
+					<td>1</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Searing Smite</td>
+					<td>Evocation</td>
+					<td>1</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Color Spray</td>
+					<td>Illusion</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Command</td>
+					<td>Enchantment</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Cleric, Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Inflict Wounds</td>
+					<td>Necromancy</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Sanctuary</td>
+					<td>Abjuration</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Compelled Duel</td>
+					<td>Enchantment</td>
+					<td>1</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Comprehend Languages</td>
+					<td>Divination</td>
+					<td>1</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Bard, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Tenser's Floating Disk</td>
+					<td>Conjuration</td>
+					<td>1</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Thunderous Smite</td>
+					<td>Evocation</td>
+					<td>1</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Arms of Hadar</td>
+					<td>Conjuration</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Warlock</td>
+				</tr>
+				<tr class="row">
+					<td>Ray of Sickness</td>
+					<td>Necromancy</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Armor of Agathys</td>
+					<td>Abjuration</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Warlock</td>
+				</tr>
+				<tr class="row">
+					<td>Hail of Thorns</td>
+					<td>Conjuration</td>
+					<td>1</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Thunderwave</td>
+					<td>Evocation</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Druid, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Unseen Servant</td>
+					<td>Conjuration</td>
+					<td>1</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Bard, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Jump</td>
+					<td>Transmutation</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Druid, Ranger, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Protection from Evil and Good</td>
+					<td>Abjuration</td>
+					<td>1</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Cleric, Paladin, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Guiding Bolt</td>
+					<td>Evocation</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Witch Bolt</td>
+					<td>Evocation</td>
+					<td>1</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Wrathful Smite</td>
+					<td>Evocation</td>
+					<td>1</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Grease</td>
+					<td>Conjuration</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Divine Favor</td>
+					<td>Evocation</td>
+					<td>1</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Dissonant Whispers</td>
+					<td>Evocation</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Bard</td>
+				</tr>
+				<tr class="row">
+					<td>Longstrider</td>
+					<td>Transmutation</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Druid, Ranger, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Mage Armor</td>
+					<td>Abjuration</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Animal Friendship</td>
+					<td>Enchantment</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Druid, Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Disguise Self</td>
+					<td>Illusion</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Magic Missile</td>
+					<td>Evocation</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Create or Destroy Water</td>
+					<td>Conjuration</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Cleric, Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Detect Poison and Disease</td>
+					<td>Divination</td>
+					<td>1</td>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td>Cleric, Druid, Paladin, Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Detect Magic</td>
+					<td>Divination</td>
+					<td>1</td>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Goodberry</td>
+					<td>Transmutation</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Druid, Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Cure Wounds</td>
+					<td>Evocation</td>
+					<td>1</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Cleric, Druid, Paladin, Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Alarm</td>
+					<td>Abjuration</td>
+					<td>1</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Ranger, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Detect Evil and Good</td>
+					<td>Divination</td>
+					<td>1</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Cleric, Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Fog Cloud</td>
+					<td>Conjuration</td>
+					<td>1</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid, Ranger, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Purify Food and Drink</td>
+					<td>Transmutation</td>
+					<td>1</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Cleric, Druid, Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Knock</td>
+					<td>Transmutation</td>
+					<td>2</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Melf's Acid Arrow</td>
+					<td>Evocation</td>
+					<td>2</td>
+					<td></td>
+					<td></td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Magic Weapon</td>
+					<td>Transmutation</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Paladin, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Magic Mouth</td>
+					<td>Illusion</td>
+					<td>2</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Bard, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Darkness</td>
+					<td>Evocation</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Crown of Madness</td>
+					<td>Enchantment</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Mirror Image</td>
+					<td>Illusion</td>
+					<td>2</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Detect Thoughts</td>
+					<td>Divination</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Misty Step</td>
+					<td>Conjuration</td>
+					<td>2</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Moonbeam</td>
+					<td>Evocation</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Nystul's Magic Aura</td>
+					<td>Illusion</td>
+					<td>2</td>
+					<td></td>
+					<td></td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Cordon of Arrows</td>
+					<td>Transmutation</td>
+					<td>2</td>
+					<td></td>
+					<td></td>
+					<td>Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Pass without Trace</td>
+					<td>Abjuration</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid, Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Phantasmal Force</td>
+					<td>Illusion</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Locate Object</td>
+					<td>Divination</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Cleric, Druid, Paladin, Ranger, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Continual Flame</td>
+					<td>Evocation</td>
+					<td>2</td>
+					<td></td>
+					<td></td>
+					<td>Cleric, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Locate Animals or Plants</td>
+					<td>Divination</td>
+					<td>2</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Bard, Druid, Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Prayer of Healing</td>
+					<td>Evocation</td>
+					<td>2</td>
+					<td></td>
+					<td></td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Levitate</td>
+					<td>Transmutation</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Lesser Restoration</td>
+					<td>Abjuration</td>
+					<td>2</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Cleric, Druid, Paladin, Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Darkvision</td>
+					<td>Transmutation</td>
+					<td>2</td>
+					<td></td>
+					<td></td>
+					<td>Druid, Ranger, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Protection from Poison</td>
+					<td>Abjuration</td>
+					<td>2</td>
+					<td></td>
+					<td></td>
+					<td>Cleric, Druid, Paladin, Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Ray of Enfeeblement</td>
+					<td>Necromancy</td>
+					<td>2</td>
+					<td></td>
+					<td></td>
+					<td>Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Invisibility</td>
+					<td>Illusion</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Rope Trick</td>
+					<td>Transmutation</td>
+					<td>2</td>
+					<td></td>
+					<td></td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Scorching Ray</td>
+					<td>Evocation</td>
+					<td>2</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Enhance Ability</td>
+					<td>Transmutation</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Cleric, Druid, Sorcerer</td>
+				</tr>
+				<tr class="row">
+					<td>Enlarge/Reduce</td>
+					<td>Transmutation</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Cloud of Daggers</td>
+					<td>Conjuration</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>See Invisibility</td>
+					<td>Divination</td>
+					<td>2</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Enthrall</td>
+					<td>Enchantment</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Warlock</td>
+				</tr>
+				<tr class="row">
+					<td>Shatter</td>
+					<td>Evocation</td>
+					<td>2</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Calm Emotions</td>
+					<td>Enchantment</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Branding Smite</td>
+					<td>Evocation</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Blur</td>
+					<td>Illusion</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Hold Person</td>
+					<td>Enchantment</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Cleric, Druid, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Silence</td>
+					<td>Illusion</td>
+					<td>2</td>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td>Bard, Cleric, Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Blindness/Deafness</td>
+					<td>Necromancy</td>
+					<td>2</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Cleric, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Spider Climb</td>
+					<td>Transmutation</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Beast Sense</td>
+					<td>Divination</td>
+					<td>2</td>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td>Druid, Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Spike Growth</td>
+					<td>Transmutation</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid, Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Barkskin</td>
+					<td>Transmutation</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid, Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Spiritual Weapon</td>
+					<td>Evocation</td>
+					<td>2</td>
+					<td></td>
+					<td></td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Find Steed</td>
+					<td>Conjuration</td>
+					<td>2</td>
+					<td></td>
+					<td></td>
+					<td>Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Find Traps</td>
+					<td>Divination</td>
+					<td>2</td>
+					<td></td>
+					<td></td>
+					<td>Cleric, Druid, Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Heat Metal</td>
+					<td>Transmutation</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Suggestion</td>
+					<td>Enchantment</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Augury</td>
+					<td>Divination</td>
+					<td>2</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Arcane Lock</td>
+					<td>Abjuration</td>
+					<td>2</td>
+					<td></td>
+					<td></td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Gust of Wind</td>
+					<td>Evocation</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Warding Bond</td>
+					<td>Abjuration</td>
+					<td>2</td>
+					<td></td>
+					<td></td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Flame Blade</td>
+					<td>Evocation</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Web</td>
+					<td>Conjuration</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Flaming Sphere</td>
+					<td>Conjuration</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Animal Messenger</td>
+					<td>Enchantment</td>
+					<td>2</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Bard, Druid, Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Alter Self</td>
+					<td>Transmutation</td>
+					<td>2</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Aid</td>
+					<td>Abjuration</td>
+					<td>2</td>
+					<td></td>
+					<td></td>
+					<td>Cleric, Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Gentle Repose</td>
+					<td>Necromancy</td>
+					<td>2</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Cleric, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Zone of Truth</td>
+					<td>Enchantment</td>
+					<td>2</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Cleric, Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Create Food and Water</td>
+					<td>Conjuration</td>
+					<td>3</td>
+					<td></td>
+					<td></td>
+					<td>Cleric, Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Crusader's Mantle</td>
+					<td>Evocation</td>
+					<td>3</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Slow</td>
+					<td>Transmutation</td>
+					<td>3</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Gaseous Form</td>
+					<td>Transmutation</td>
+					<td>3</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Animate Dead</td>
+					<td>Necromancy</td>
+					<td>3</td>
+					<td></td>
+					<td></td>
+					<td>Cleric, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Sleet Storm</td>
+					<td>Conjuration</td>
+					<td>3</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Tongues</td>
+					<td>Divination</td>
+					<td>3</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Cleric, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Daylight</td>
+					<td>Evocation</td>
+					<td>3</td>
+					<td></td>
+					<td></td>
+					<td>Cleric, Druid, Paladin, Ranger, Sorcerer</td>
+				</tr>
+				<tr class="row">
+					<td>Wind Wall</td>
+					<td>Evocation</td>
+					<td>3</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid, Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Speak with Dead</td>
+					<td>Necromancy</td>
+					<td>3</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Glyph of Warding</td>
+					<td>Abjuration</td>
+					<td>3</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Cleric, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Fly</td>
+					<td>Transmutation</td>
+					<td>3</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Aura of Vitality</td>
+					<td>Evocation</td>
+					<td>3</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Blinding Smite</td>
+					<td>Evocation</td>
+					<td>3</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Meld into Stone</td>
+					<td>Transmutation</td>
+					<td>3</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Cleric, Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Blink</td>
+					<td>Transmutation</td>
+					<td>3</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Nondetection</td>
+					<td>Abjuration</td>
+					<td>3</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Ranger, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Call Lightning</td>
+					<td>Conjuration</td>
+					<td>3</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Clairvoyance</td>
+					<td>Divination</td>
+					<td>3</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Cleric, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Fireball</td>
+					<td>Evocation</td>
+					<td>3</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Speak with Plants</td>
+					<td>Transmutation</td>
+					<td>3</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Druid, Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Counterspell</td>
+					<td>Abjuration</td>
+					<td>3</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Bestow Curse</td>
+					<td>Necromancy</td>
+					<td>3</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Cleric, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Mass Healing Word</td>
+					<td>Evocation</td>
+					<td>3</td>
+					<td></td>
+					<td></td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Sending</td>
+					<td>Evocation</td>
+					<td>3</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Cleric, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Haste</td>
+					<td>Transmutation</td>
+					<td>3</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Beacon of Hope</td>
+					<td>Abjuration</td>
+					<td>3</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Major Image</td>
+					<td>Illusion</td>
+					<td>3</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Revivify</td>
+					<td>Conjuration</td>
+					<td>3</td>
+					<td></td>
+					<td></td>
+					<td>Cleric, Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Feign Death</td>
+					<td>Necromancy</td>
+					<td>3</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Bard, Cleric, Druid, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Spirit Guardians</td>
+					<td>Conjuration</td>
+					<td>3</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Water Walk</td>
+					<td>Transmutation</td>
+					<td>3</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Cleric, Druid, Ranger, Sorcerer</td>
+				</tr>
+				<tr class="row">
+					<td>Fear</td>
+					<td>Illusion</td>
+					<td>3</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Vampiric Touch</td>
+					<td>Necromancy</td>
+					<td>3</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Magic Circle</td>
+					<td>Abjuration</td>
+					<td>3</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Cleric, Paladin, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Water Breathing</td>
+					<td>Transmutation</td>
+					<td>3</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Druid, Ranger, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Hunger of Hadar</td>
+					<td>Conjuration</td>
+					<td>3</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Warlock</td>
+				</tr>
+				<tr class="row">
+					<td>Phantom Steed</td>
+					<td>Illusion</td>
+					<td>3</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Hypnotic Pattern</td>
+					<td>Illusion</td>
+					<td>3</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Plant Growth</td>
+					<td>Transmutation</td>
+					<td>3</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Druid, Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Dispel Magic</td>
+					<td>Abjuration</td>
+					<td>3</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Cleric, Druid, Paladin, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Remove Curse</td>
+					<td>Abjuration</td>
+					<td>3</td>
+					<td></td>
+					<td></td>
+					<td>Cleric, Paladin, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Lightning Bolt</td>
+					<td>Evocation</td>
+					<td>3</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Conjure Animals</td>
+					<td>Conjuration</td>
+					<td>3</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid, Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Elemental Weapon</td>
+					<td>Transmutation</td>
+					<td>3</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Conjure Barrage</td>
+					<td>Conjuration</td>
+					<td>3</td>
+					<td></td>
+					<td></td>
+					<td>Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Stinking Cloud</td>
+					<td>Conjuration</td>
+					<td>3</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Lightning Arrow</td>
+					<td>Transmutation</td>
+					<td>3</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Protection from Energy</td>
+					<td>Abjuration</td>
+					<td>3</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Cleric, Druid, Ranger, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Leomund's Tiny Hut</td>
+					<td>Evocation</td>
+					<td>3</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Bard, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Staggering Smite</td>
+					<td>Evocation</td>
+					<td>4</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Conjure Woodland Beings</td>
+					<td>Conjuration</td>
+					<td>4</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid, Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Stoneskin</td>
+					<td>Transmutation</td>
+					<td>4</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid, Ranger, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Polymorph</td>
+					<td>Transmutation</td>
+					<td>4</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Druid, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Dominate Beast</td>
+					<td>Enchantment</td>
+					<td>4</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid, Sorcerer</td>
+				</tr>
+				<tr class="row">
+					<td>Conjure Minor Elementals</td>
+					<td>Conjuration</td>
+					<td>4</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Leomund's Secret Chest</td>
+					<td>Conjuration</td>
+					<td>4</td>
+					<td></td>
+					<td></td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Wall of Fire</td>
+					<td>Evocation</td>
+					<td>4</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Locate Creature</td>
+					<td>Divination</td>
+					<td>4</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Cleric, Druid, Paladin, Ranger, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Divination</td>
+					<td>Divination</td>
+					<td>4</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Evard's Black Tentacles</td>
+					<td>Conjuration</td>
+					<td>4</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Ice Storm</td>
+					<td>Evocation</td>
+					<td>4</td>
+					<td></td>
+					<td></td>
+					<td>Druid, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Confusion</td>
+					<td>Enchantment</td>
+					<td>4</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Druid, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Fabricate</td>
+					<td>Transmutation</td>
+					<td>4</td>
+					<td></td>
+					<td></td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Phantasmal Killer</td>
+					<td>Illusion</td>
+					<td>4</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Dimension Door</td>
+					<td>Conjuration</td>
+					<td>4</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Control Water</td>
+					<td>Transmutation</td>
+					<td>4</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Cleric, Druid, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Banishment</td>
+					<td>Abjuration</td>
+					<td>4</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Cleric, Paladin, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Compulsion</td>
+					<td>Enchantment</td>
+					<td>4</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard</td>
+				</tr>
+				<tr class="row">
+					<td>Otiluke's Resilient Sphere</td>
+					<td>Evocation</td>
+					<td>4</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Arcane Eye</td>
+					<td>Divination</td>
+					<td>4</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Hallucinatory Terrain</td>
+					<td>Illusion</td>
+					<td>4</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Druid, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Fire Shield</td>
+					<td>Evocation</td>
+					<td>4</td>
+					<td></td>
+					<td></td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Guardian of Faith</td>
+					<td>Conjuration</td>
+					<td>4</td>
+					<td></td>
+					<td></td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Greater Invisibility</td>
+					<td>Illusion</td>
+					<td>4</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Grasping Vine</td>
+					<td>Conjuration</td>
+					<td>4</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid, Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Death Ward</td>
+					<td>Abjuration</td>
+					<td>4</td>
+					<td></td>
+					<td></td>
+					<td>Cleric, Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Giant Insect</td>
+					<td>Transmutation</td>
+					<td>4</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Mordenkainen's Private Sanctum</td>
+					<td>Abjuration</td>
+					<td>4</td>
+					<td></td>
+					<td></td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Blight</td>
+					<td>Necromancy</td>
+					<td>4</td>
+					<td></td>
+					<td></td>
+					<td>Druid, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Freedom of Movement</td>
+					<td>Abjuration</td>
+					<td>4</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Cleric, Druid, Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Aura of Purity</td>
+					<td>Abjuration</td>
+					<td>4</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Aura of Life</td>
+					<td>Abjuration</td>
+					<td>4</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Mordenkainen's Faithful Hound</td>
+					<td>Conjuration</td>
+					<td>4</td>
+					<td></td>
+					<td></td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Stone Shape</td>
+					<td>Transmutation</td>
+					<td>4</td>
+					<td></td>
+					<td></td>
+					<td>Cleric, Druid, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Raise Dead</td>
+					<td>Necromancy</td>
+					<td>5</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Cleric, Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Modify Memory</td>
+					<td>Enchantment</td>
+					<td>5</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Mislead</td>
+					<td>Illusion</td>
+					<td>5</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Creation</td>
+					<td>Illusion</td>
+					<td>5</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Geas</td>
+					<td>Enchantment</td>
+					<td>5</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Cleric, Druid, Paladin, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Greater Restoration</td>
+					<td>Abjuration</td>
+					<td>5</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Cleric, Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Tree Stride</td>
+					<td>Conjuration</td>
+					<td>5</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid, Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Circle of Power</td>
+					<td>Abjuration</td>
+					<td>5</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Flame Strike</td>
+					<td>Evocation</td>
+					<td>5</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Hallow</td>
+					<td>Evocation</td>
+					<td>5</td>
+					<td></td>
+					<td></td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Seeming</td>
+					<td>Illusion</td>
+					<td>5</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Mass Cure Wounds</td>
+					<td>Conjuration</td>
+					<td>5</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Cleric, Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Bigby's Hand</td>
+					<td>Evocation</td>
+					<td>5</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Teleportation Circle</td>
+					<td>Conjuration</td>
+					<td>5</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Passwall</td>
+					<td>Transmutation</td>
+					<td>5</td>
+					<td></td>
+					<td></td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Destructive Wave</td>
+					<td>Evocation</td>
+					<td>5</td>
+					<td></td>
+					<td></td>
+					<td>Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Cloudkill</td>
+					<td>Conjuration</td>
+					<td>5</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Scrying</td>
+					<td>Divination</td>
+					<td>5</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Cleric, Druid, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Commune</td>
+					<td>Divination</td>
+					<td>5</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Insect Plague</td>
+					<td>Conjuration</td>
+					<td>5</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Cleric, Druid, Sorcerer</td>
+				</tr>
+				<tr class="row">
+					<td>Telekinesis</td>
+					<td>Transmutation</td>
+					<td>5</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Dispel Evil and Good</td>
+					<td>Abjuration</td>
+					<td>5</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Cleric, Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Commune with Nature</td>
+					<td>Divination</td>
+					<td>5</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Druid, Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Wall of Force</td>
+					<td>Evocation</td>
+					<td>5</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Awaken</td>
+					<td>Transmutation</td>
+					<td>5</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Swift Quiver</td>
+					<td>Transmutation</td>
+					<td>5</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Animate Objects</td>
+					<td>Transmutation</td>
+					<td>5</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Contagion</td>
+					<td>Necromancy</td>
+					<td>5</td>
+					<td></td>
+					<td></td>
+					<td>Cleric, Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Contact Other Plane</td>
+					<td>Divination</td>
+					<td>5</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Banishing Smite</td>
+					<td>Abjuration</td>
+					<td>5</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Paladin</td>
+				</tr>
+				<tr class="row">
+					<td>Dominate Person</td>
+					<td>Enchantment</td>
+					<td>5</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Legend Lore</td>
+					<td>Divination</td>
+					<td>5</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Cleric, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Cone of Cold</td>
+					<td>Evocation</td>
+					<td>5</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Hold Monster</td>
+					<td>Enchantment</td>
+					<td>5</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Antilife Shell</td>
+					<td>Abjuration</td>
+					<td>5</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Conjure Volley</td>
+					<td>Conjuration</td>
+					<td>5</td>
+					<td></td>
+					<td></td>
+					<td>Ranger</td>
+				</tr>
+				<tr class="row">
+					<td>Dream</td>
+					<td>Illusion</td>
+					<td>5</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Reincarnate</td>
+					<td>Transmutation</td>
+					<td>5</td>
+					<td></td>
+					<td></td>
+					<td>Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Conjure Elemental</td>
+					<td>Conjuration</td>
+					<td>5</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Rary's Telepathic Bond</td>
+					<td>Divination</td>
+					<td>5</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Wall of Stone</td>
+					<td>Evocation</td>
+					<td>5</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Planar Binding</td>
+					<td>Abjuration</td>
+					<td>5</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Cleric, Druid, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Wall of Ice</td>
+					<td>Evocation</td>
+					<td>6</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Wall of Thorns</td>
+					<td>Conjuration</td>
+					<td>6</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Conjure Fey</td>
+					<td>Conjuration</td>
+					<td>6</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid, Warlock</td>
+				</tr>
+				<tr class="row">
+					<td>Drawmij's Instant Summons</td>
+					<td>Conjuration</td>
+					<td>6</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Eyebite</td>
+					<td>Necromancy</td>
+					<td>6</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Create Undead</td>
+					<td>Necromancy</td>
+					<td>6</td>
+					<td></td>
+					<td></td>
+					<td>Cleric, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Heroes' Feast</td>
+					<td>Conjuration</td>
+					<td>6</td>
+					<td></td>
+					<td></td>
+					<td>Cleric, Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Find the Path</td>
+					<td>Divination</td>
+					<td>6</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Cleric, Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Programmed Illusion</td>
+					<td>Illusion</td>
+					<td>6</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Sunbeam</td>
+					<td>Evocation</td>
+					<td>6</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Contingency</td>
+					<td>Evocation</td>
+					<td>6</td>
+					<td></td>
+					<td></td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Planar Ally</td>
+					<td>Conjuration</td>
+					<td>6</td>
+					<td></td>
+					<td></td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Disintegrate</td>
+					<td>Transmutation</td>
+					<td>6</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Magic Jar</td>
+					<td>Necromancy</td>
+					<td>6</td>
+					<td></td>
+					<td></td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Otto's Irresistible Dance</td>
+					<td>Enchantment</td>
+					<td>6</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Otiluke's Freezing Sphere</td>
+					<td>Evocation</td>
+					<td>6</td>
+					<td></td>
+					<td></td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Harm</td>
+					<td>Necromancy</td>
+					<td>6</td>
+					<td></td>
+					<td></td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Mass Suggestion</td>
+					<td>Enchantment</td>
+					<td>6</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Wind Walk</td>
+					<td>Transmutation</td>
+					<td>6</td>
+					<td></td>
+					<td></td>
+					<td>Druid</td>
+				</tr>
+				<tr class="row">
+					<td>True Seeing</td>
+					<td>Divination</td>
+					<td>6</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Cleric, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Move Earth</td>
+					<td>Transmutation</td>
+					<td>6</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Circle of Death</td>
+					<td>Necromancy</td>
+					<td>6</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Chain Lightning</td>
+					<td>Evocation</td>
+					<td>6</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Guards and Wards</td>
+					<td>Abjuration</td>
+					<td>6</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Transport via Plants</td>
+					<td>Conjuration</td>
+					<td>6</td>
+					<td></td>
+					<td></td>
+					<td>Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Flesh to Stone</td>
+					<td>Transmutation</td>
+					<td>6</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Globe of Invulnerability</td>
+					<td>Abjuration</td>
+					<td>6</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Forbiddance</td>
+					<td>Abjuration</td>
+					<td>6</td>
+					<td>Yes</td>
+					<td></td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Arcane Gate</td>
+					<td>Conjuration</td>
+					<td>6</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Word of Recall</td>
+					<td>Conjuration</td>
+					<td>6</td>
+					<td></td>
+					<td></td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Blade Barrier</td>
+					<td>Evocation</td>
+					<td>6</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Heal</td>
+					<td>Evocation</td>
+					<td>6</td>
+					<td></td>
+					<td></td>
+					<td>Cleric, Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Simulacrum</td>
+					<td>Illusion</td>
+					<td>7</td>
+					<td></td>
+					<td></td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Delayed Blast Fireball</td>
+					<td>Evocation</td>
+					<td>7</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Sequester</td>
+					<td>Transmutation</td>
+					<td>7</td>
+					<td></td>
+					<td></td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Etherealness</td>
+					<td>Transmutation</td>
+					<td>7</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Cleric, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Reverse Gravity</td>
+					<td>Transmutation</td>
+					<td>7</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Resurrection</td>
+					<td>Necromancy</td>
+					<td>7</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Regenerate</td>
+					<td>Transmutation</td>
+					<td>7</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Cleric, Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Conjure Celestial</td>
+					<td>Conjuration</td>
+					<td>7</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Project Image</td>
+					<td>Illusion</td>
+					<td>7</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Forcecage</td>
+					<td>Evocation</td>
+					<td>7</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Divine Word</td>
+					<td>Evocation</td>
+					<td>7</td>
+					<td></td>
+					<td></td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Prismatic Spray</td>
+					<td>Evocation</td>
+					<td>7</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Mirage Arcane</td>
+					<td>Illusion</td>
+					<td>7</td>
+					<td></td>
+					<td></td>
+					<td>Druid, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Mirrage Arcane</td>
+					<td>Illusion</td>
+					<td>7</td>
+					<td></td>
+					<td></td>
+					<td>Bard</td>
+				</tr>
+				<tr class="row">
+					<td>Fire Storm</td>
+					<td>Evocation</td>
+					<td>7</td>
+					<td></td>
+					<td></td>
+					<td>Cleric, Druid, Sorcerer</td>
+				</tr>
+				<tr class="row">
+					<td>Symbol</td>
+					<td>Abjuration</td>
+					<td>7</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Cleric, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Finger of Death</td>
+					<td>Necromancy</td>
+					<td>7</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Plane Shift</td>
+					<td>Conjuration</td>
+					<td>7</td>
+					<td></td>
+					<td></td>
+					<td>Cleric, Druid, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Mordenkainen's Magnificent Mansion</td>
+					<td>Conjuration</td>
+					<td>7</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Mordenkainen's Sword</td>
+					<td>Evocation</td>
+					<td>7</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Teleport</td>
+					<td>Conjuration</td>
+					<td>7</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Control Weather</td>
+					<td>Transmutation</td>
+					<td>8</td>
+					<td></td>
+					<td></td>
+					<td>Cleric, Druid, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Telepathy</td>
+					<td>Evocation</td>
+					<td>8</td>
+					<td></td>
+					<td></td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Sunburst</td>
+					<td>Evocation</td>
+					<td>8</td>
+					<td></td>
+					<td></td>
+					<td>Druid, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Feeblemind</td>
+					<td>Enchantment</td>
+					<td>8</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Druid, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Power Word Stun</td>
+					<td>Enchantment</td>
+					<td>8</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Holy Aura</td>
+					<td>Abjuration</td>
+					<td>8</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>Glibness</td>
+					<td>Transmutation</td>
+					<td>8</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Warlock</td>
+				</tr>
+				<tr class="row">
+					<td>Clone</td>
+					<td>Necromancy</td>
+					<td>8</td>
+					<td></td>
+					<td></td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Animal Shapes</td>
+					<td>Transmutation</td>
+					<td>8</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Incendiary Cloud</td>
+					<td>Conjuration</td>
+					<td>8</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Earthquake</td>
+					<td>Evocation</td>
+					<td>8</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Cleric, Druid, Sorcerer</td>
+				</tr>
+				<tr class="row">
+					<td>Maze</td>
+					<td>Conjuration</td>
+					<td>8</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Dominate Monster</td>
+					<td>Enchantment</td>
+					<td>8</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Tsunami</td>
+					<td>Conjuration</td>
+					<td>8</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Antipathy/Sympathy</td>
+					<td>Enchantment</td>
+					<td>8</td>
+					<td></td>
+					<td></td>
+					<td>Druid, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Demiplane</td>
+					<td>Conjuration</td>
+					<td>8</td>
+					<td></td>
+					<td></td>
+					<td>Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Antimagic Field</td>
+					<td>Abjuration</td>
+					<td>8</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Cleric, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Mind Blank</td>
+					<td>Abjuration</td>
+					<td>8</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Mass Heal</td>
+					<td>Conjuration</td>
+					<td>9</td>
+					<td></td>
+					<td></td>
+					<td>Cleric</td>
+				</tr>
+				<tr class="row">
+					<td>True Resurrection</td>
+					<td>Necromancy</td>
+					<td>9</td>
+					<td></td>
+					<td></td>
+					<td>Cleric, Druid</td>
+				</tr>
+				<tr class="row">
+					<td>True Polymorph</td>
+					<td>Transmutation</td>
+					<td>9</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Bard, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Imprisonment</td>
+					<td>Abjuration</td>
+					<td>9</td>
+					<td></td>
+					<td></td>
+					<td>Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Meteor Swarm</td>
+					<td>Evocation</td>
+					<td>9</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Time Stop</td>
+					<td>Transmutation</td>
+					<td>9</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Astral Projection</td>
+					<td>Necromancy</td>
+					<td>9</td>
+					<td></td>
+					<td></td>
+					<td>Cleric, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Power Word Heal</td>
+					<td>Evocation</td>
+					<td>9</td>
+					<td></td>
+					<td></td>
+					<td>Bard</td>
+				</tr>
+				<tr class="row">
+					<td>Weird</td>
+					<td>Illusion</td>
+					<td>9</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Power Word Kill</td>
+					<td>Enchantment</td>
+					<td>9</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Sorcerer, Warlock, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Storm of Vengeance</td>
+					<td>Conjuration</td>
+					<td>9</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid</td>
+				</tr>
+				<tr class="row">
+					<td>Wish</td>
+					<td>Conjuration</td>
+					<td>9</td>
+					<td></td>
+					<td></td>
+					<td>Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Gate</td>
+					<td>Conjuration</td>
+					<td>9</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Cleric, Sorcerer, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Prismatic Wall</td>
+					<td>Abjuration</td>
+					<td>9</td>
+					<td></td>
+					<td></td>
+					<td>Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Shapechange</td>
+					<td>Transmutation</td>
+					<td>9</td>
+					<td></td>
+					<td>Yes</td>
+					<td>Druid, Wizard</td>
+				</tr>
+				<tr class="row">
+					<td>Foresight</td>
+					<td>Divination</td>
+					<td>9</td>
+					<td></td>
+					<td></td>
+					<td>Bard, Druid, Warlock, Wizard</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	
+
+</body></html>
+<script>
+$(document).ready( create_links() );
+</script>

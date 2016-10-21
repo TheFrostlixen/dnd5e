@@ -1,0 +1,74 @@
+
+td {
+	text-align:center;
+	margin:2;
+	font-size:13px;
+	color:saddlebrown;
+}
+
+#reset_button {
+	padding:2px;
+	margin-right:4px;
+	border:2px solid rgba(255,0,0,0.5);
+	background-color:rgba(0,0,0,0.1);
+	border-radius:14px;
+	width:21px;
+	height:21px;
+	float:right;
+	font-family:'helvetica';
+	font-style:bold;
+	font-size:12px;
+	text-decoration:none;
+	color:red;	
+	cursor:pointer;
+}
+
+#class_select {
+	margin-left:25px;
+}
+
+p {
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+th {
+	font-size:16px;
+}
+
+.col1 {
+	width:229px;
+}
+.col2 {
+	width:108px;
+}
+.col3 {
+	width:83px;
+}
+.col4 {
+	width:70px;
+}
+.col5 {
+	width:130px;
+}
+.col6 {
+	width:329px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+	background-color:rgba(1,1,1,0.05);
+}
+
+input {
+	width:140px;
+}
+
+body {
+	background:url('../img/parchment.jpg');
+	font-family:'alois';
+}
+
+@font-face { 
+	font-family: 'alois';
+	src: url(../fonts/alois.ttf);
+}

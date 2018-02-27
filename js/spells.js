@@ -20,19 +20,18 @@ function update_list() {
 	
 	var spellList = $('#spelltable').children();
 	for (i = 0; i < spellList.length; i++) {
-		$(spellList[i]).show();
 		// filter schools
-		(!~$($(spellList[i]).children()[1]).text().indexOf( searchSchool )) ? $(spellList[i]).hide() : null;
+		(!~$($(spellList[i]).children()[1]).text().indexOf( searchSchool )) ? $(spellList[i]).hide() : $(spellList[i]).show();
 		// filter levels
-		(!~$($(spellList[i]).children()[2]).text().indexOf( searchLevel )) ? $(spellList[i]).hide() : null;
+		(!~$($(spellList[i]).children()[2]).text().indexOf( searchLevel )) ? $(spellList[i]).hide() : $(spellList[i]).show();
 		// filter class
-		(!~$($(spellList[i]).children()[5]).text().indexOf( searchClass )) ? $(spellList[i]).hide() : null;
+		(!~$($(spellList[i]).children()[5]).text().indexOf( searchClass )) ? $(spellList[i]).hide() : $(spellList[i]).show();
 		// filter rituals
-		(!~$($(spellList[i]).children()[3]).text().indexOf( searchRitual )) ? $(spellList[i]).hide() : null;
+		(!~$($(spellList[i]).children()[3]).text().indexOf( searchRitual )) ? $(spellList[i]).hide() : $(spellList[i]).show();
 		// filter concentration
-		(!~$($(spellList[i]).children()[4]).text().indexOf( searchConc )) ? $(spellList[i]).hide() : null;
+		(!~$($(spellList[i]).children()[4]).text().indexOf( searchConc )) ? $(spellList[i]).hide() : $(spellList[i]).show();
 		// filter by spell name
-		(!~$($(spellList[i]).children()[0]).text().toLowerCase().indexOf( searchName.toLowerCase() )) ? $(spellList[i]).hide() : null;
+		(!~$($(spellList[i]).children()[0]).text().toLowerCase().indexOf( searchName.toLowerCase() )) ? $(spellList[i]).hide() : $(spellList[i]).show();
 	}
 	
 	fix_striping();

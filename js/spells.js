@@ -1,37 +1,52 @@
-function create_links() {
-	var rows = $('tr.row');
-	Array.prototype.forEach.call( rows, function(el) {
-		var name = el.children[0].innerHTML.trim();
-		var spell = name.replace('\'','').replace('/','').replace(/ /g,'-') + el.children[3].innerHTML.trim().replace("Yes", "-Ritual");
+function load_table(selector) {
+	$.ajaxSetup( { beforeSend: function(xhr) {
+		if (xhr.overrideMimeType) {
+			xhr.overrideMimeType("application/json");
+		}
+	}});
+	
+	$.getJSON("js/spells.json",{}, function( data ){
 		
-		el.children[0].innerHTML = "<a href=\'https://www.dnd-spells.com/spell/" + spell + "\' target=\'_blank\'>" + name + "</a>";
-	});
+		spells_list = data.spells;
+		build_html_table(selector, spells_list);
+	});	
+}
+
+function build_html_table(selector, spells_list) {
+	var columns = ["Name", "Level", "School", "Casting Time", "Ritual", "Concentration", "Components", "Class", "Book"];
+
+	for (var i = 0; i < spells_list.length; i++) {
+		var row = $('<tr/>');
+		for (var j = 0; j < columns.length; j++) {
+			var value = spells_list[i][columns[j]];
+			if (value == null) value = "";
+			row.append($('<td/>').html(value));
+		}
+		$(selector).append(row);
+	}
 	
 	fix_striping();
 }
 
 function update_list() {
-	var searchSchool = $('#school').val();
-	var searchLevel  = $('#level').val();
-	var searchClass  = $('#class_select').val();
-	var searchRitual = $('#ritual').is(':checked') ? "Yes" : "";
-	var searchConc   = $('#concentration').is(':checked') ? "Yes" : "";
-	var searchName   = $('#spell').val();
+	var search_criteria = [ $('#name').val(),
+							$('#level').val(),
+							$('#school').val(),
+							$('#cast_time').val(),
+							$('#ritual').is(':checked') ? "Yes" : "",
+							$('#concentration').is(':checked') ? "Yes" : "",
+							$('#components').val(),
+							$('#class_select').val(),
+							$('#book').val()
+						  ];
 	
-	var spellList = $('#spelltable').children();
-	for (i = 0; i < spellList.length; i++) {
-		// filter schools
-		(!~$($(spellList[i]).children()[1]).text().indexOf( searchSchool )) ? $(spellList[i]).hide() : $(spellList[i]).show();
-		// filter levels
-		(!~$($(spellList[i]).children()[2]).text().indexOf( searchLevel )) ? $(spellList[i]).hide() : $(spellList[i]).show();
-		// filter class
-		(!~$($(spellList[i]).children()[5]).text().indexOf( searchClass )) ? $(spellList[i]).hide() : $(spellList[i]).show();
-		// filter rituals
-		(!~$($(spellList[i]).children()[3]).text().indexOf( searchRitual )) ? $(spellList[i]).hide() : $(spellList[i]).show();
-		// filter concentration
-		(!~$($(spellList[i]).children()[4]).text().indexOf( searchConc )) ? $(spellList[i]).hide() : $(spellList[i]).show();
-		// filter by spell name
-		(!~$($(spellList[i]).children()[0]).text().toLowerCase().indexOf( searchName.toLowerCase() )) ? $(spellList[i]).hide() : $(spellList[i]).show();
+	var spell_list = $('#spelltable').children();
+	for (i = 0; i < spell_list.length; i++) {
+		$(spell_list[i]).show();
+		
+		for (j = 0; j < search_criteria.length; j++) {
+			(!~$($(spell_list[i]).children()[j]).text().toLowerCase().indexOf( search_criteria[j].toLowerCase() )) ? $(spell_list[i]).hide() : null;
+		}
 	}
 	
 	fix_striping();
@@ -47,12 +62,16 @@ function fix_striping() {
 }
 
 function reset_list() {
-	$('#school').val("");
+	$('#name').val("");
 	$('#level').val("");
+	$('#school').val("");
+	$('#cast_time').val("");
+	$('#components').val("");
+	$('#class_select').val("");
+	$('#book').val("");
 	$('#class_select').val("");
 	$('#ritual').attr('checked', false);
 	$('#concentration').attr('checked', false);
-	$('#spell').val("");
 	
 	update_list();
 }

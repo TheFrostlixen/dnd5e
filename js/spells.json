@@ -10,7 +10,7 @@
             "Components": "VS",
             "Class": "Artificer, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:acid-splash"
+            "id": "acid-splash"
         },
         {
             "Name": "Blade Ward",
@@ -22,7 +22,7 @@
             "Components": "VS",
             "Class": "Bard, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:blade-ward"
+            "id": "blade-ward"
         },
         {
             "Name": "Booming Blade",
@@ -34,7 +34,7 @@
             "Components": "VM",
             "Class": "Sorcerer, Warlock, Wizard",
             "Book": "SCAG",
-            "url": "http://dnd5e.wikidot.com/spell:booming-blade"
+            "id": "booming-blade"
         },
         {
             "Name": "Chill Touch",
@@ -46,7 +46,7 @@
             "Components": "VS",
             "Class": "Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:chill-touch"
+            "id": "chill-touch"
         },
         {
             "Name": "Control Flames",
@@ -58,7 +58,7 @@
             "Components": "S",
             "Class": "Druid, Sorcerer, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:control-flames"
+            "id": "control-flames"
         },
         {
             "Name": "Create Bonfire",
@@ -70,7 +70,7 @@
             "Components": "VS",
             "Class": "Druid, Sorcerer, Warlock, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:create-bonfire"
+            "id": "create-bonfire"
         },
         {
             "Name": "Dancing Lights",
@@ -82,7 +82,7 @@
             "Components": "VSM",
             "Class": "Artificer, Bard, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:dancing-lights"
+            "id": "dancing-lights"
         },
         {
             "Name": "Druidcraft",
@@ -94,7 +94,7 @@
             "Components": "VS",
             "Class": "Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:druidcraft"
+            "id": "druidcraft"
         },
         {
             "Name": "Eldritch Blast",
@@ -106,7 +106,7 @@
             "Components": "VS",
             "Class": "Warlock",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:eldritch-blast"
+            "id": "eldritch-blast"
         },
         {
             "Name": "Fire Bolt",
@@ -118,7 +118,7 @@
             "Components": "VS",
             "Class": "Artificer, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:fire-bolt"
+            "id": "fire-bolt"
         },
         {
             "Name": "Friends",
@@ -130,7 +130,7 @@
             "Components": "SM",
             "Class": "Bard, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:friends"
+            "id": "friends"
         },
         {
             "Name": "Frostbite",
@@ -142,7 +142,7 @@
             "Components": "VS",
             "Class": "Druid, Sorcerer, Warlock, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:frostbite"
+            "id": "frostbite"
         },
         {
             "Name": "Green-Flame Blade",
@@ -154,7 +154,7 @@
             "Components": "VM",
             "Class": "Sorcerer, Warlock, Wizard",
             "Book": "SCAG",
-            "url": "http://dnd5e.wikidot.com/spell:green-flame-blade"
+            "id": "green-flame-blade"
         },
         {
             "Name": "Guidance",
@@ -166,7 +166,7 @@
             "Components": "VS",
             "Class": "Artificer, Cleric, Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:guidance"
+            "id": "guidance"
         },
         {
             "Name": "Gust",
@@ -178,7 +178,7 @@
             "Components": "VS",
             "Class": "Druid, Sorcerer, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:gust"
+            "id": "gust"
         },
         {
             "Name": "Infestation",
@@ -190,7 +190,7 @@
             "Components": "VSM",
             "Class": "Druid, Sorcerer, Warlock, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:infestation"
+            "id": "infestation"
         },
         {
             "Name": "Light",
@@ -202,7 +202,7 @@
             "Components": "VM",
             "Class": "Artificer, Bard, Cleric, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:light"
+            "id": "light"
         },
         {
             "Name": "Lightning Lure",
@@ -214,7 +214,7 @@
             "Components": "V",
             "Class": "Sorcerer, Warlock, Wizard",
             "Book": "SCAG",
-            "url": "http://dnd5e.wikidot.com/spell:lightning-lure"
+            "id": "lightning-lure"
         },
         {
             "Name": "Mage Hand",
@@ -226,7 +226,7 @@
             "Components": "VS",
             "Class": "Artificer, Bard, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:mage-hand"
+            "id": "mage-hand"
         },
         {
             "Name": "Magic Stone",
@@ -238,7 +238,7 @@
             "Components": "VS",
             "Class": "Druid, Warlock",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:magic-stone"
+            "id": "magic-stone"
         },
         {
             "Name": "Mending",
@@ -250,7 +250,7 @@
             "Components": "VSM",
             "Class": "Artificer, Bard, Cleric, Druid, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:mending"
+            "id": "mending"
         },
         {
             "Name": "Message",
@@ -262,7 +262,7 @@
             "Components": "VSM",
             "Class": "Artificer, Bard, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:message"
+            "id": "message"
         },
         {
             "Name": "Minor Illusion",
@@ -274,7 +274,7 @@
             "Components": "SM",
             "Class": "Bard, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:minor-illusion"
+            "id": "minor-illusion"
         },
         {
             "Name": "Mold Earth",
@@ -286,7 +286,7 @@
             "Components": "S",
             "Class": "Druid, Sorcerer, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:mold-earth"
+            "id": "mold-earth"
         },
         {
             "Name": "Poison Spray",
@@ -298,7 +298,7 @@
             "Components": "VS",
             "Class": "Artificer, Druid, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:poison-spray"
+            "id": "poison-spray"
         },
         {
             "Name": "Prestidigitation",
@@ -310,7 +310,7 @@
             "Components": "VS",
             "Class": "Artificer, Bard, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:prestidigitation"
+            "id": "prestidigitation"
         },
         {
             "Name": "Primal Savagery",
@@ -322,7 +322,7 @@
             "Components": "S",
             "Class": "Druid",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:primal-savagery"
+            "id": "primal-savagery"
         },
         {
             "Name": "Produce Flame",
@@ -334,7 +334,7 @@
             "Components": "VS",
             "Class": "Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:produce-flame"
+            "id": "produce-flame"
         },
         {
             "Name": "Ray of Frost",
@@ -346,7 +346,7 @@
             "Components": "VS",
             "Class": "Artificer, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:ray-of-frost"
+            "id": "ray-of-frost"
         },
         {
             "Name": "Resistance",
@@ -358,7 +358,7 @@
             "Components": "VSM",
             "Class": "Artificer, Cleric, Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:resistance"
+            "id": "resistance"
         },
         {
             "Name": "Sacred Flame",
@@ -370,7 +370,7 @@
             "Components": "VS",
             "Class": "Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:sacred-flame"
+            "id": "sacred-flame"
         },
         {
             "Name": "Shape Water",
@@ -382,7 +382,7 @@
             "Components": "S",
             "Class": "Druid, Sorcerer, Wizard",
             "Book": "EE",
-            "url": "http://dnd5e.wikidot.com/spell:shape-water"
+            "id": "shape-water"
         },
         {
             "Name": "Shillelagh",
@@ -394,7 +394,7 @@
             "Components": "VSM",
             "Class": "Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:shillelagh"
+            "id": "shillelagh"
         },
         {
             "Name": "Shocking Grasp",
@@ -406,7 +406,7 @@
             "Components": "VS",
             "Class": "Artificer, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:shocking-grasp"
+            "id": "shocking-grasp"
         },
         {
             "Name": "Spare the Dying",
@@ -418,7 +418,7 @@
             "Components": "VS",
             "Class": "Artificer, Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:spare-the-dying"
+            "id": "spare-the-dying"
         },
         {
             "Name": "Sword Burst",
@@ -430,7 +430,7 @@
             "Components": "V",
             "Class": "Sorcerer, Warlock, Wizard",
             "Book": "SCAG",
-            "url": "http://dnd5e.wikidot.com/spell:sword-burst"
+            "id": "sword-burst"
         },
         {
             "Name": "Thaumaturgy",
@@ -442,7 +442,7 @@
             "Components": "V",
             "Class": "Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:thaumaturgy"
+            "id": "thaumaturgy"
         },
         {
             "Name": "Thorn Whip",
@@ -454,7 +454,7 @@
             "Components": "VSM",
             "Class": "Artificer, Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:thorn-whip"
+            "id": "thorn-whip"
         },
         {
             "Name": "Thunderclap",
@@ -466,7 +466,7 @@
             "Components": "S",
             "Class": "Bard, Druid, Sorcerer, Warlock, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:thunderclap"
+            "id": "thunderclap"
         },
         {
             "Name": "Toll the Dead",
@@ -478,7 +478,7 @@
             "Components": "VS",
             "Class": "Cleric, Warlock, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:toll-the-dead"
+            "id": "toll-the-dead"
         },
         {
             "Name": "True Strike",
@@ -490,7 +490,7 @@
             "Components": "S",
             "Class": "Bard, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:true-strike"
+            "id": "true-strike"
         },
         {
             "Name": "Vicious Mockery",
@@ -502,7 +502,7 @@
             "Components": "V",
             "Class": "Bard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:vicious-mockery"
+            "id": "vicious-mockery"
         },
         {
             "Name": "Word of Radiance",
@@ -514,7 +514,7 @@
             "Components": "VM",
             "Class": "Cleric",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:word-of-radiance"
+            "id": "word-of-radiance"
         },
         {
             "Name": "Absorb Elements",
@@ -526,7 +526,7 @@
             "Components": "S",
             "Class": "Druid, Ranger, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:absorb-elements"
+            "id": "absorb-elements"
         },
         {
             "Name": "Alarm",
@@ -538,7 +538,7 @@
             "Components": "VSM",
             "Class": "Artificer, Ranger, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:alarm"
+            "id": "alarm"
         },
         {
             "Name": "Animal Friendship",
@@ -550,7 +550,7 @@
             "Components": "VSM",
             "Class": "Bard, Druid, Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:animal-friendship"
+            "id": "animal-friendship"
         },
         {
             "Name": "Armor of Agathys",
@@ -562,7 +562,7 @@
             "Components": "VSM",
             "Class": "Warlock",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:armor-of-agathys"
+            "id": "armor-of-agathys"
         },
         {
             "Name": "Arms of Hadar",
@@ -574,7 +574,7 @@
             "Components": "VS",
             "Class": "Warlock",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:arms-of-hadar"
+            "id": "arms-of-hadar"
         },
         {
             "Name": "Bane",
@@ -586,7 +586,7 @@
             "Components": "VSM",
             "Class": "Bard, Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:bane"
+            "id": "bane"
         },
         {
             "Name": "Beast Bond",
@@ -598,7 +598,7 @@
             "Components": "VSM",
             "Class": "Druid, Ranger",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:beast-bond"
+            "id": "beast-bond"
         },
         {
             "Name": "Bless",
@@ -610,7 +610,7 @@
             "Components": "VSM",
             "Class": "Cleric, Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:bless"
+            "id": "bless"
         },
         {
             "Name": "Burning Hands",
@@ -622,7 +622,7 @@
             "Components": "VS",
             "Class": "Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:burning-hands"
+            "id": "burning-hands"
         },
         {
             "Name": "Catapult",
@@ -634,7 +634,7 @@
             "Components": "S",
             "Class": "Sorcerer, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:catapult"
+            "id": "catapult"
         },
         {
             "Name": "Cause Fear",
@@ -646,7 +646,7 @@
             "Components": "V",
             "Class": "Warlock, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:cause-fear"
+            "id": "cause-fear"
         },
         {
             "Name": "Ceremony",
@@ -658,7 +658,7 @@
             "Components": "VSM",
             "Class": "Cleric, Paladin",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:ceremony"
+            "id": "ceremony"
         },
         {
             "Name": "Chaos Bolt",
@@ -670,7 +670,7 @@
             "Components": "VS",
             "Class": "Sorcerer",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:chaos-bolt"
+            "id": "chaos-bolt"
         },
         {
             "Name": "Charm Person",
@@ -682,7 +682,7 @@
             "Components": "VS",
             "Class": "Bard, Druid, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:charm-person"
+            "id": "charm-person"
         },
         {
             "Name": "Chromatic Orb",
@@ -694,7 +694,7 @@
             "Components": "VSM",
             "Class": "Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:chromatic-orb"
+            "id": "chromatic-orb"
         },
         {
             "Name": "Color Spray",
@@ -706,7 +706,7 @@
             "Components": "VSM",
             "Class": "Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:color-spray"
+            "id": "color-spray"
         },
         {
             "Name": "Command",
@@ -718,7 +718,7 @@
             "Components": "V",
             "Class": "Cleric, Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:command"
+            "id": "command"
         },
         {
             "Name": "Compelled Duel",
@@ -730,7 +730,7 @@
             "Components": "V",
             "Class": "Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:compelled-duel"
+            "id": "compelled-duel"
         },
         {
             "Name": "Comprehend Languages",
@@ -742,7 +742,7 @@
             "Components": "VSM",
             "Class": "Bard, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:comprehend-languages"
+            "id": "comprehend-languages"
         },
         {
             "Name": "Create or Destroy Water",
@@ -754,7 +754,7 @@
             "Components": "VSM",
             "Class": "Cleric, Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:create-or-destroy-water"
+            "id": "create-or-destroy-water"
         },
         {
             "Name": "Cure Wounds",
@@ -766,7 +766,7 @@
             "Components": "VS",
             "Class": "Artificer, Bard, Cleric, Druid, Paladin, Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:cure-wounds"
+            "id": "cure-wounds"
         },
         {
             "Name": "Detect Evil and Good",
@@ -778,7 +778,7 @@
             "Components": "VS",
             "Class": "Cleric, Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:detect-evil-and-good"
+            "id": "detect-evil-and-good"
         },
         {
             "Name": "Detect Magic",
@@ -790,7 +790,7 @@
             "Components": "VS",
             "Class": "Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:detect-magic"
+            "id": "detect-magic"
         },
         {
             "Name": "Detect Poison and Disease",
@@ -802,7 +802,7 @@
             "Components": "VSM",
             "Class": "Cleric, Druid, Paladin, Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:detect-poison-and-disease"
+            "id": "detect-poison-and-disease"
         },
         {
             "Name": "Disguise Self",
@@ -814,7 +814,7 @@
             "Components": "VS",
             "Class": "Artificer, Bard, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:disguise-self"
+            "id": "disguise-self"
         },
         {
             "Name": "Dissonant Whispers",
@@ -826,7 +826,7 @@
             "Components": "V",
             "Class": "Bard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:dissonant-whispers"
+            "id": "dissonant-whispers"
         },
         {
             "Name": "Divine Favor",
@@ -838,7 +838,7 @@
             "Components": "VS",
             "Class": "Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:divine-favor"
+            "id": "divine-favor"
         },
         {
             "Name": "Earth Tremor",
@@ -850,7 +850,7 @@
             "Components": "VS",
             "Class": "Bard, Druid, Sorcerer, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:earth-tremor"
+            "id": "earth-tremor"
         },
         {
             "Name": "Ensnaring Strike",
@@ -862,7 +862,7 @@
             "Components": "V",
             "Class": "Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:ensnaring-strike"
+            "id": "ensnaring-strike"
         },
         {
             "Name": "Entangle",
@@ -874,7 +874,7 @@
             "Components": "VS",
             "Class": "Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:entangle"
+            "id": "entangle"
         },
         {
             "Name": "Expeditious Retreat",
@@ -886,7 +886,7 @@
             "Components": "VS",
             "Class": "Artificer, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:expeditious-retreat"
+            "id": "expeditious-retreat"
         },
         {
             "Name": "Faerie Fire",
@@ -898,7 +898,7 @@
             "Components": "V",
             "Class": "Bard, Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:faerie-fire"
+            "id": "faerie-fire"
         },
         {
             "Name": "False Life",
@@ -910,7 +910,7 @@
             "Components": "VSM",
             "Class": "Artificer, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:false-life"
+            "id": "false-life"
         },
         {
             "Name": "Feather Fall",
@@ -922,7 +922,7 @@
             "Components": "VM",
             "Class": "Bard, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:feather-fall"
+            "id": "feather-fall"
         },
         {
             "Name": "Find Familiar",
@@ -934,7 +934,7 @@
             "Components": "VSM",
             "Class": "Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:find-familiar"
+            "id": "find-familiar"
         },
         {
             "Name": "Fog Cloud",
@@ -946,7 +946,7 @@
             "Components": "VS",
             "Class": "Druid, Ranger, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:fog-cloud"
+            "id": "fog-cloud"
         },
         {
             "Name": "Goodberry",
@@ -958,7 +958,7 @@
             "Components": "VSM",
             "Class": "Druid, Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:goodberry"
+            "id": "goodberry"
         },
         {
             "Name": "Grease",
@@ -970,7 +970,7 @@
             "Components": "VSM",
             "Class": "Artificer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:grease"
+            "id": "grease"
         },
         {
             "Name": "Guiding Bolt",
@@ -982,7 +982,7 @@
             "Components": "VS",
             "Class": "Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:guiding-bolt"
+            "id": "guiding-bolt"
         },
         {
             "Name": "Hail of Thorns",
@@ -994,7 +994,7 @@
             "Components": "V",
             "Class": "Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:hail-of-thorns"
+            "id": "hail-of-thorns"
         },
         {
             "Name": "Healing Word",
@@ -1006,7 +1006,7 @@
             "Components": "V",
             "Class": "Bard, Cleric, Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:hail-of-thorns"
+            "id": "hail-of-thorns"
         },
         {
             "Name": "Hellish Rebuke",
@@ -1018,7 +1018,7 @@
             "Components": "VS",
             "Class": "Warlock",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:hellish-rebuke"
+            "id": "hellish-rebuke"
         },
         {
             "Name": "Heroism",
@@ -1030,7 +1030,7 @@
             "Components": "VS",
             "Class": "Bard, Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:heroism"
+            "id": "heroism"
         },
         {
             "Name": "Hex",
@@ -1042,7 +1042,7 @@
             "Components": "VSM",
             "Class": "Warlock",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:hex"
+            "id": "hex"
         },
         {
             "Name": "Hunter's Mark",
@@ -1054,7 +1054,7 @@
             "Components": "V",
             "Class": "Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:hunters-mark"
+            "id": "hunters-mark"
         },
         {
             "Name": "Ice Knife",
@@ -1066,7 +1066,7 @@
             "Components": "SM",
             "Class": "Druid, Sorcerer, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:ice-knife"
+            "id": "ice-knife"
         },
         {
             "Name": "Identify",
@@ -1078,7 +1078,7 @@
             "Components": "VSM",
             "Class": "Artificer, Bard, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:identify"
+            "id": "identify"
         },
         {
             "Name": "Illusory Script",
@@ -1090,7 +1090,7 @@
             "Components": "SM",
             "Class": "Bard, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:illusory-script"
+            "id": "illusory-script"
         },
         {
             "Name": "Inflict Wounds",
@@ -1102,7 +1102,7 @@
             "Components": "VS",
             "Class": "Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:inflict-wounds"
+            "id": "inflict-wounds"
         },
         {
             "Name": "Jump",
@@ -1114,7 +1114,7 @@
             "Components": "VSM",
             "Class": "Artificer, Druid, Ranger, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:jump"
+            "id": "jump"
         },
         {
             "Name": "Longstrider",
@@ -1126,7 +1126,7 @@
             "Components": "VSM",
             "Class": "Artificer, Bard, Druid, Ranger, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:longstrider"
+            "id": "longstrider"
         },
         {
             "Name": "Mage Armor",
@@ -1138,7 +1138,7 @@
             "Components": "VSM",
             "Class": "Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:mage-armor"
+            "id": "mage-armor"
         },
         {
             "Name": "Magic Missile",
@@ -1150,7 +1150,7 @@
             "Components": "VS",
             "Class": "Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:magic-missile"
+            "id": "magic-missile"
         },
         {
             "Name": "Protection from Evil and Good",
@@ -1162,7 +1162,7 @@
             "Components": "VSM",
             "Class": "Cleric, Paladin, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:protection-from-evil-and-good"
+            "id": "protection-from-evil-and-good"
         },
         {
             "Name": "Purify Food and Drink",
@@ -1174,7 +1174,7 @@
             "Components": "VS",
             "Class": "Cleric, Druid, Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:purify-food-and-drink"
+            "id": "purify-food-and-drink"
         },
         {
             "Name": "Ray of Sickness",
@@ -1186,7 +1186,7 @@
             "Components": "VS",
             "Class": "Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:ray-of-sickness"
+            "id": "ray-of-sickness"
         },
         {
             "Name": "Sanctuary",
@@ -1198,7 +1198,7 @@
             "Components": "VSM",
             "Class": "Artificer, Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:sanctuary"
+            "id": "sanctuary"
         },
         {
             "Name": "Searing Smite",
@@ -1210,7 +1210,7 @@
             "Components": "V",
             "Class": "Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:searing-smite"
+            "id": "searing-smite"
         },
         {
             "Name": "Shield",
@@ -1222,7 +1222,7 @@
             "Components": "VS",
             "Class": "Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:shield"
+            "id": "shield"
         },
         {
             "Name": "Shield of Faith",
@@ -1234,7 +1234,7 @@
             "Components": "VSM",
             "Class": "Artificer, Cleric, Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:shield-of-faith"
+            "id": "shield-of-faith"
         },
         {
             "Name": "Silent Image",
@@ -1246,7 +1246,7 @@
             "Components": "VSM",
             "Class": "Bard, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:silent-image"
+            "id": "silent-image"
         },
         {
             "Name": "Sleep",
@@ -1258,7 +1258,7 @@
             "Components": "VSM",
             "Class": "Bard, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:sleep"
+            "id": "sleep"
         },
         {
             "Name": "Snare",
@@ -1270,7 +1270,7 @@
             "Components": "SM",
             "Class": "Druid, Ranger, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:snare"
+            "id": "snare"
         },
         {
             "Name": "Speak with Animals",
@@ -1282,7 +1282,7 @@
             "Components": "VS",
             "Class": "Bard, Druid, Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:speak-with-animals"
+            "id": "speak-with-animals"
         },
         {
             "Name": "Tasha's Hideous Laughter",
@@ -1294,7 +1294,7 @@
             "Components": "VSM",
             "Class": "Bard, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:tashas-hideous-laughter"
+            "id": "tashas-hideous-laughter"
         },
         {
             "Name": "Tenser's Floating Disk",
@@ -1306,7 +1306,7 @@
             "Components": "VSM",
             "Class": "Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:tensers-floating-disk"
+            "id": "tensers-floating-disk"
         },
         {
             "Name": "Thunderous Smite",
@@ -1318,7 +1318,7 @@
             "Components": "V",
             "Class": "Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:thunderous-smite"
+            "id": "thunderous-smite"
         },
         {
             "Name": "Thunderwave",
@@ -1330,7 +1330,7 @@
             "Components": "VS",
             "Class": "Bard, Druid, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:thunderwave"
+            "id": "thunderwave"
         },
         {
             "Name": "Unseen Servant",
@@ -1342,7 +1342,7 @@
             "Components": "VSM",
             "Class": "Bard, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:unseen-servant"
+            "id": "unseen-servant"
         },
         {
             "Name": "Witch Bolt",
@@ -1354,7 +1354,7 @@
             "Components": "VSM",
             "Class": "Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:witch-bolt"
+            "id": "witch-bolt"
         },
         {
             "Name": "Wrathful Smite",
@@ -1366,7 +1366,7 @@
             "Components": "V",
             "Class": "Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:wrathful-smite"
+            "id": "wrathful-smite"
         },
         {
             "Name": "Zephyr Strike",
@@ -1378,7 +1378,7 @@
             "Components": "V",
             "Class": "Ranger",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:zephyr-strike"
+            "id": "zephyr-strike"
         },
         {
             "Name": "Aganazzar's Scorcher",
@@ -1390,7 +1390,7 @@
             "Components": "VSM",
             "Class": "Sorcerer, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:aganazzars-scorcher"
+            "id": "aganazzars-scorcher"
         },
         {
             "Name": "Aid",
@@ -1402,7 +1402,7 @@
             "Components": "VSM",
             "Class": "Artificer, Cleric, Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:aid"
+            "id": "aid"
         },
         {
             "Name": "Alter Self",
@@ -1414,7 +1414,7 @@
             "Components": "VS",
             "Class": "Artificer, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:alter-self"
+            "id": "alter-self"
         },
         {
             "Name": "Animal Messenger",
@@ -1426,7 +1426,7 @@
             "Components": "VSM",
             "Class": "Bard, Druid, Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:animal-messenger"
+            "id": "animal-messenger"
         },
         {
             "Name": "Arcane Lock",
@@ -1438,7 +1438,7 @@
             "Components": "VSM",
             "Class": "Artificer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:arcane-lock"
+            "id": "arcane-lock"
         },
         {
             "Name": "Augury",
@@ -1450,7 +1450,7 @@
             "Components": "VSM",
             "Class": "Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:augury"
+            "id": "augury"
         },
         {
             "Name": "Barkskin",
@@ -1462,7 +1462,7 @@
             "Components": "VSM",
             "Class": "Druid, Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:barkskin"
+            "id": "barkskin"
         },
         {
             "Name": "Beast Sense",
@@ -1474,7 +1474,7 @@
             "Components": "S",
             "Class": "Druid, Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:beast-sense"
+            "id": "beast-sense"
         },
         {
             "Name": "Blindness/Deafness",
@@ -1486,7 +1486,7 @@
             "Components": "V",
             "Class": "Bard, Cleric, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:blindness-deafness"
+            "id": "blindness-deafness"
         },
         {
             "Name": "Blur",
@@ -1498,7 +1498,7 @@
             "Components": "V",
             "Class": "Artificer, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:blur"
+            "id": "blur"
         },
         {
             "Name": "Branding Smite",
@@ -1510,7 +1510,7 @@
             "Components": "V",
             "Class": "Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:branding-smite"
+            "id": "branding-smite"
         },
         {
             "Name": "Calm Emotions",
@@ -1522,7 +1522,7 @@
             "Components": "VS",
             "Class": "Bard, Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:calm-emotions"
+            "id": "calm-emotions"
         },
         {
             "Name": "Cloud of Daggers",
@@ -1534,7 +1534,7 @@
             "Components": "VSM",
             "Class": "Bard, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:cloud-of-daggers"
+            "id": "cloud-of-daggers"
         },
         {
             "Name": "Continual Flame",
@@ -1546,7 +1546,7 @@
             "Components": "VSM",
             "Class": "Artificer, Cleric, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:continual-flame"
+            "id": "continual-flame"
         },
         {
             "Name": "Cordon of Arrows",
@@ -1558,7 +1558,7 @@
             "Components": "VSM",
             "Class": "Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:cordon-of-arrows"
+            "id": "cordon-of-arrows"
         },
         {
             "Name": "Crown of Madness",
@@ -1570,7 +1570,7 @@
             "Components": "VS",
             "Class": "Bard, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:crown-of-madness"
+            "id": "crown-of-madness"
         },
         {
             "Name": "Darkness",
@@ -1582,7 +1582,7 @@
             "Components": "VM",
             "Class": "Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:darkness"
+            "id": "darkness"
         },
         {
             "Name": "Darkvision",
@@ -1594,7 +1594,7 @@
             "Components": "VSM",
             "Class": "Artificer, Druid, Ranger, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:darkvision"
+            "id": "darkvision"
         },
         {
             "Name": "Detect Thoughts",
@@ -1606,7 +1606,7 @@
             "Components": "VSM",
             "Class": "Bard, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:detect-thoughts"
+            "id": "detect-thoughts"
         },
         {
             "Name": "Dragon's Breath",
@@ -1618,7 +1618,7 @@
             "Components": "VSM",
             "Class": "Artificer, Sorcerer, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:dragons-breath"
+            "id": "dragons-breath"
         },
         {
             "Name": "Dust Devil",
@@ -1630,7 +1630,7 @@
             "Components": "VSM",
             "Class": "Druid, Sorcerer, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:dust-devil"
+            "id": "dust-devil"
         },
         {
             "Name": "Earthbind",
@@ -1642,7 +1642,7 @@
             "Components": "V",
             "Class": "Druid, Sorcerer, Warlock, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:earthbind"
+            "id": "earthbind"
         },
         {
             "Name": "Enhance Ability",
@@ -1654,7 +1654,7 @@
             "Components": "VSM",
             "Class": "Artificer, Bard, Cleric, Druid, Sorcerer",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:enhance-ability"
+            "id": "enhance-ability"
         },
         {
             "Name": "Enlarge/Reduce",
@@ -1666,7 +1666,7 @@
             "Components": "VSM",
             "Class": "Artificer, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:enlarge-reduce"
+            "id": "enlarge-reduce"
         },
         {
             "Name": "Enthrall",
@@ -1678,7 +1678,7 @@
             "Components": "VS",
             "Class": "Bard, Warlock",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:enthrall"
+            "id": "enthrall"
         },
         {
             "Name": "Find Steed",
@@ -1690,7 +1690,7 @@
             "Components": "VS",
             "Class": "Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:find-steed"
+            "id": "find-steed"
         },
         {
             "Name": "Find Traps",
@@ -1702,7 +1702,7 @@
             "Components": "VS",
             "Class": "Cleric, Druid, Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:find-traps"
+            "id": "find-traps"
         },
         {
             "Name": "Flame Blade",
@@ -1714,7 +1714,7 @@
             "Components": "VSM",
             "Class": "Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:flame-blade"
+            "id": "flame-blade"
         },
         {
             "Name": "Flaming Sphere",
@@ -1726,7 +1726,7 @@
             "Components": "VSM",
             "Class": "Druid, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:flaming-sphere"
+            "id": "flaming-sphere"
         },
         {
             "Name": "Gentle Repose",
@@ -1738,7 +1738,7 @@
             "Components": "VSM",
             "Class": "Cleric, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:gentle-repose"
+            "id": "gentle-repose"
         },
         {
             "Name": "Gust of Wind",
@@ -1750,7 +1750,7 @@
             "Components": "VSM",
             "Class": "Druid, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:gust-of-wind"
+            "id": "gust-of-wind"
         },
         {
             "Name": "Healing Spirit",
@@ -1762,7 +1762,7 @@
             "Components": "VS",
             "Class": "Druid, Ranger",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:healing-spirit"
+            "id": "healing-spirit"
         },
         {
             "Name": "Heat Metal",
@@ -1774,7 +1774,7 @@
             "Components": "VSM",
             "Class": "Artificer, Bard, Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:heat-metal"
+            "id": "heat-metal"
         },
         {
             "Name": "Hold Person",
@@ -1786,7 +1786,7 @@
             "Components": "VSM",
             "Class": "Bard,Cleric, Druid,Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:hold-person"
+            "id": "hold-person"
         },
         {
             "Name": "Invisibility",
@@ -1798,7 +1798,7 @@
             "Components": "VSM",
             "Class": "Artificer, Bard, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:invisibility"
+            "id": "invisibility"
         },
         {
             "Name": "Knock",
@@ -1810,7 +1810,7 @@
             "Components": "V",
             "Class": "Bard, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:knock"
+            "id": "knock"
         },
         {
             "Name": "Lesser Restoration",
@@ -1822,7 +1822,7 @@
             "Components": "VS",
             "Class": "Artificer, Bard, Cleric, Druid, Paladin, Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:lesser-restoration"
+            "id": "lesser-restoration"
         },
         {
             "Name": "Levitate",
@@ -1834,7 +1834,7 @@
             "Components": "VSM",
             "Class": "Artificer, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:levitate"
+            "id": "levitate"
         },
         {
             "Name": "Locate Animals or Plants",
@@ -1846,7 +1846,7 @@
             "Components": "VSM",
             "Class": "Bard, Druid, Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:locate-animals-or-plants"
+            "id": "locate-animals-or-plants"
         },
         {
             "Name": "Locate Object",
@@ -1858,7 +1858,7 @@
             "Components": "VSM",
             "Class": "Bard, Cleric, Druid, Paladin, Ranger, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:locate-object"
+            "id": "locate-object"
         },
         {
             "Name": "Magic Mouth",
@@ -1870,7 +1870,7 @@
             "Components": "VSM",
             "Class": "Bard, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:magic-mouth"
+            "id": "magic-mouth"
         },
         {
             "Name": "Magic Weapon",
@@ -1882,7 +1882,7 @@
             "Components": "VS",
             "Class": "Artificer, Paladin, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:magic-weapon"
+            "id": "magic-weapon"
         },
         {
             "Name": "Maximilian's Earthen Grasp",
@@ -1894,7 +1894,7 @@
             "Components": "VSM",
             "Class": "Sorcerer, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:maximillians-earthen-grasp"
+            "id": "maximillians-earthen-grasp"
         },
         {
             "Name": "Melf's Acid Arrow",
@@ -1906,7 +1906,7 @@
             "Components": "VSM",
             "Class": "Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:melfs-acid-arrow"
+            "id": "melfs-acid-arrow"
         },
         {
             "Name": "Mind Spike",
@@ -1918,7 +1918,7 @@
             "Components": "S",
             "Class": "Sorcerer, Warlock, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:mind-spike"
+            "id": "mind-spike"
         },
         {
             "Name": "Mirror Image",
@@ -1930,7 +1930,7 @@
             "Components": "VS",
             "Class": "Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:mirror-image"
+            "id": "mirror-image"
         },
         {
             "Name": "Misty Step",
@@ -1942,7 +1942,7 @@
             "Components": "V",
             "Class": "Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "Sorcerer, Warlock, Wizard"
+            "id": "misty-step"
         },
         {
             "Name": "Moonbeam",
@@ -1954,7 +1954,7 @@
             "Components": "VSM",
             "Class": "Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:moonbeam"
+            "id": "moonbeam"
         },
         {
             "Name": "Nystul's Magic Aura",
@@ -1966,7 +1966,7 @@
             "Components": "VSM",
             "Class": "Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:nystuls-magic-aura"
+            "id": "nystuls-magic-aura"
         },
         {
             "Name": "Pass without Trace",
@@ -1978,7 +1978,7 @@
             "Components": "VSM",
             "Class": "Druid, Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:pass-without-trace"
+            "id": "pass-without-trace"
         },
         {
             "Name": "Phantasmal Force",
@@ -1990,7 +1990,7 @@
             "Components": "VSM",
             "Class": "Bard, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:phantasmal-force"
+            "id": "phantasmal-force"
         },
         {
             "Name": "Prayer of Healing",
@@ -2002,7 +2002,7 @@
             "Components": "V",
             "Class": "Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:prayer-of-healing"
+            "id": "prayer-of-healing"
         },
         {
             "Name": "Protection from Poison",
@@ -2014,7 +2014,7 @@
             "Components": "VS",
             "Class": "Artificer, Cleric, Druid, Paladin, Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:protection-from-poison"
+            "id": "protection-from-poison"
         },
         {
             "Name": "Pyrotechnics",
@@ -2026,7 +2026,7 @@
             "Components": "VS",
             "Class": "Bard, Sorcerer, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:pyrotechnics"
+            "id": "pyrotechnics"
         },
         {
             "Name": "Ray of Enfeeblement",
@@ -2038,7 +2038,7 @@
             "Components": "VS",
             "Class": "Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:ray-of-enfeeblement"
+            "id": "ray-of-enfeeblement"
         },
         {
             "Name": "Rope Trick",
@@ -2050,7 +2050,7 @@
             "Components": "VSM",
             "Class": "Artificer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:rope-trick"
+            "id": "rope-trick"
         },
         {
             "Name": "Scorching Ray",
@@ -2062,7 +2062,7 @@
             "Components": "VS",
             "Class": "Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:scorching-ray"
+            "id": "scorching-ray"
         },
         {
             "Name": "See Invisibility",
@@ -2074,7 +2074,7 @@
             "Components": "VSM",
             "Class": "Artificer, Bard, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:see-invisibility"
+            "id": "see-invisibility"
         },
         {
             "Name": "Shadow Blade",
@@ -2086,7 +2086,7 @@
             "Components": "VS",
             "Class": "Sorcerer, Warlock, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:shadow-blade"
+            "id": "shadow-blade"
         },
         {
             "Name": "Shatter",
@@ -2098,7 +2098,7 @@
             "Components": "VSM",
             "Class": "Bard, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:shatter"
+            "id": "shatter"
         },
         {
             "Name": "Silence",
@@ -2110,7 +2110,7 @@
             "Components": "VS",
             "Class": "Bard, Cleric, Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:silence"
+            "id": "silence"
         },
         {
             "Name": "Skywrite",
@@ -2122,7 +2122,7 @@
             "Components": "VS",
             "Class": "Bard, Druid, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:skywrite"
+            "id": "skywrite"
         },
         {
             "Name": "Snilloc's Snowball Swarm",
@@ -2134,7 +2134,7 @@
             "Components": "VSM",
             "Class": "Sorcerer, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:snillocs-snowball-storm"
+            "id": "snillocs-snowball-storm"
         },
         {
             "Name": "Spider Climb",
@@ -2146,7 +2146,7 @@
             "Components": "VSM",
             "Class": "Artificer, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:spider-climb"
+            "id": "spider-climb"
         },
         {
             "Name": "Spike Growth",
@@ -2158,7 +2158,7 @@
             "Components": "VSM",
             "Class": "Druid, Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:spike-growth"
+            "id": "spike-growth"
         },
         {
             "Name": "Spiritual Weapon",
@@ -2170,7 +2170,7 @@
             "Components": "VS",
             "Class": "Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:spiritual-weapon"
+            "id": "spiritual-weapon"
         },
         {
             "Name": "Suggestion",
@@ -2182,7 +2182,7 @@
             "Components": "VM",
             "Class": "Bard, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:suggestion"
+            "id": "suggestion"
         },
         {
             "Name": "Warding Bond",
@@ -2194,7 +2194,7 @@
             "Components": "VSM",
             "Class": "Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:warding-bond"
+            "id": "warding-bond"
         },
         {
             "Name": "Warding Wind",
@@ -2206,7 +2206,7 @@
             "Components": "V",
             "Class": "Bard, Druid, Sorcerer",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:warding-wind"
+            "id": "warding-wind"
         },
         {
             "Name": "Web",
@@ -2218,7 +2218,7 @@
             "Components": "VSM",
             "Class": "Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:web"
+            "id": "web"
         },
         {
             "Name": "Zone of Truth",
@@ -2230,7 +2230,7 @@
             "Components": "VS",
             "Class": "Bard, Cleric, Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:zone-of-truth"
+            "id": "zone-of-truth"
         },
         {
             "Name": "Animate Dead",
@@ -2242,7 +2242,7 @@
             "Components": "VSM",
             "Class": "Cleric, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:animate-dead"
+            "id": "animate-dead"
         },
         {
             "Name": "Aura of Vitality",
@@ -2254,7 +2254,7 @@
             "Components": "V",
             "Class": "Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:aura-of-vitality"
+            "id": "aura-of-vitality"
         },
         {
             "Name": "Beacon of Hope",
@@ -2266,7 +2266,7 @@
             "Components": "VS",
             "Class": "Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:beacon-of-hope"
+            "id": "beacon-of-hope"
         },
         {
             "Name": "Bestow Curse",
@@ -2278,7 +2278,7 @@
             "Components": "VS",
             "Class": "Bard, Cleric, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:bestow-curse"
+            "id": "bestow-curse"
         },
         {
             "Name": "Blinding Smite",
@@ -2290,7 +2290,7 @@
             "Components": "V",
             "Class": "Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:blinding-smite"
+            "id": "blinding-smite"
         },
         {
             "Name": "Blink",
@@ -2302,7 +2302,7 @@
             "Components": "VS",
             "Class": "Artificer, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:blink"
+            "id": "blink"
         },
         {
             "Name": "Call Lightning",
@@ -2314,7 +2314,7 @@
             "Components": "VS",
             "Class": "Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:call-lightning"
+            "id": "call-lightning"
         },
         {
             "Name": "Catnap",
@@ -2326,7 +2326,7 @@
             "Components": "SM",
             "Class": "Wizard, Bard, Sorcerer",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:catnap"
+            "id": "catnap"
         },
         {
             "Name": "Clairvoyance",
@@ -2338,7 +2338,7 @@
             "Components": "VSM",
             "Class": "Bard, Cleric, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:clairvoyance"
+            "id": "clairvoyance"
         },
         {
             "Name": "Conjure Animals",
@@ -2350,7 +2350,7 @@
             "Components": "VS",
             "Class": "Druid, Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:conjure-animals"
+            "id": "conjure-animals"
         },
         {
             "Name": "Conjure Barrage",
@@ -2362,7 +2362,7 @@
             "Components": "VSM",
             "Class": "Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:conjure-barrage"
+            "id": "conjure-barrage"
         },
         {
             "Name": "Counterspell",
@@ -2374,7 +2374,7 @@
             "Components": "S",
             "Class": "Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:counterspell"
+            "id": "counterspell"
         },
         {
             "Name": "Create Food and Water",
@@ -2386,7 +2386,7 @@
             "Components": "VS",
             "Class": "Cleric, Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:create-food-and-water"
+            "id": "create-food-and-water"
         },
         {
             "Name": "Crusader's Mantle",
@@ -2398,7 +2398,7 @@
             "Components": "V",
             "Class": "Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:crusaders-mantle"
+            "id": "crusaders-mantle"
         },
         {
             "Name": "Daylight",
@@ -2410,7 +2410,7 @@
             "Components": "VS",
             "Class": "Bard, Cleric, Druid, Paladin, Ranger, Sorcerer",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:daylight"
+            "id": "daylight"
         },
         {
             "Name": "Dispel Magic",
@@ -2422,7 +2422,7 @@
             "Components": "VS",
             "Class": "Bard, Cleric, Druid, Paladin, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:dispel-magic"
+            "id": "dispel-magic"
         },
         {
             "Name": "Elemental Weapon",
@@ -2434,7 +2434,7 @@
             "Components": "VS",
             "Class": "Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:elemental-weapon"
+            "id": "elemental-weapon"
         },
         {
             "Name": "Enemies Abound",
@@ -2446,7 +2446,7 @@
             "Components": "VS",
             "Class": "Bard, Sorcerer, Warlock, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:enemies-abound"
+            "id": "enemies-abound"
         },
         {
             "Name": "Erupting Earth",
@@ -2458,7 +2458,7 @@
             "Components": "VSM",
             "Class": "Druid, Sorcerer, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:erupting-earth"
+            "id": "erupting-earth"
         },
         {
             "Name": "Fear",
@@ -2470,7 +2470,7 @@
             "Components": "VSM",
             "Class": "Bard, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:fear"
+            "id": "fear"
         },
         {
             "Name": "Feign Death",
@@ -2482,7 +2482,7 @@
             "Components": "VSM",
             "Class": "Bard, Cleric, Druid, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:feign-death"
+            "id": "feign-death"
         },
         {
             "Name": "Fireball",
@@ -2494,7 +2494,7 @@
             "Components": "VSM",
             "Class": "Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:fireball"
+            "id": "fireball"
         },
         {
             "Name": "Flame Arrows",
@@ -2506,7 +2506,7 @@
             "Components": "VS",
             "Class": "Druid, Ranger, Sorcerer , Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:flame-arrows"
+            "id": "flame-arrows"
         },
         {
             "Name": "Fly",
@@ -2518,7 +2518,7 @@
             "Components": "VSM",
             "Class": "Artificer, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:fly"
+            "id": "fly"
         },
         {
             "Name": "Gaseous Form",
@@ -2530,7 +2530,7 @@
             "Components": "VSM",
             "Class": "Artificer, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:gaseous-form"
+            "id": "gaseous-form"
         },
         {
             "Name": "Glyph of Warding",
@@ -2542,7 +2542,7 @@
             "Components": "VSM",
             "Class": "Artificer, Bard, Cleric, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:glyph-of-warding"
+            "id": "glyph-of-warding"
         },
         {
             "Name": "Haste",
@@ -2554,7 +2554,7 @@
             "Components": "VSM",
             "Class": "Artificer, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:haste"
+            "id": "haste"
         },
         {
             "Name": "Hunger of Hadar",
@@ -2566,7 +2566,7 @@
             "Components": "VSM",
             "Class": "Warlock",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:hunger-of-hadar"
+            "id": "hunger-of-hadar"
         },
         {
             "Name": "Hypnotic Pattern",
@@ -2578,7 +2578,7 @@
             "Components": "SM",
             "Class": "Bard, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:hypnotic-pattern"
+            "id": "hypnotic-pattern"
         },
         {
             "Name": "Leomund's Tiny Hut",
@@ -2590,7 +2590,7 @@
             "Components": "VSM",
             "Class": "Bard, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:leomunds-tiny-hut"
+            "id": "leomunds-tiny-hut"
         },
         {
             "Name": "Life Transference",
@@ -2602,7 +2602,7 @@
             "Components": "VS",
             "Class": "Cleric, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:life-transference"
+            "id": "life-transference"
         },
         {
             "Name": "Lightning Arrow",
@@ -2614,7 +2614,7 @@
             "Components": "VS",
             "Class": "Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:lightning-arrow"
+            "id": "lightning-arrow"
         },
         {
             "Name": "Lightning Bolt",
@@ -2626,7 +2626,7 @@
             "Components": "VSM",
             "Class": "Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:lightning-bolt"
+            "id": "lightning-bolt"
         },
         {
             "Name": "Magic Circle",
@@ -2638,7 +2638,7 @@
             "Components": "VSM",
             "Class": "Cleric, Paladin, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:magic-circle"
+            "id": "magic-circle"
         },
         {
             "Name": "Major Image",
@@ -2650,7 +2650,7 @@
             "Components": "VSM",
             "Class": "Bard, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:major-image"
+            "id": "major-image"
         },
         {
             "Name": "Mass Healing Word",
@@ -2662,7 +2662,7 @@
             "Components": "V",
             "Class": "Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:mass-healing-word"
+            "id": "mass-healing-word"
         },
         {
             "Name": "Meld into Stone",
@@ -2674,7 +2674,7 @@
             "Components": "VS",
             "Class": "Cleric, Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:meld-into-stone"
+            "id": "meld-into-stone"
         },
         {
             "Name": "Melf's Minute Meteors",
@@ -2686,7 +2686,7 @@
             "Components": "VSM",
             "Class": "Sorcerer, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:melfs-minute-meteors"
+            "id": "melfs-minute-meteors"
         },
         {
             "Name": "Nondetection",
@@ -2698,7 +2698,7 @@
             "Components": "VSM",
             "Class": "Bard, Ranger, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:nondetection"
+            "id": "nondetection"
         },
         {
             "Name": "Phantom Steed",
@@ -2710,7 +2710,7 @@
             "Components": "VS",
             "Class": "Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:phantom-steed"
+            "id": "phantom-steed"
         },
         {
             "Name": "Plant Growth",
@@ -2722,7 +2722,7 @@
             "Components": "VS",
             "Class": "Bard, Druid, Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:plant-growth"
+            "id": "plant-growth"
         },
         {
             "Name": "Protection from Energy",
@@ -2734,7 +2734,7 @@
             "Components": "VS",
             "Class": "Artificer, Cleric, Druid, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:protection-from-energy"
+            "id": "protection-from-energy"
         },
         {
             "Name": "Remove Curse",
@@ -2746,7 +2746,7 @@
             "Components": "VS",
             "Class": "Cleric, Paladin, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:remove-curse"
+            "id": "remove-curse"
         },
         {
             "Name": "Revivify",
@@ -2758,7 +2758,7 @@
             "Components": "VSM",
             "Class": "Artificer, Cleric, Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:revivify"
+            "id": "revivify"
         },
         {
             "Name": "Sending",
@@ -2770,7 +2770,7 @@
             "Components": "VSM",
             "Class": "Bard, Cleric, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:sending"
+            "id": "sending"
         },
         {
             "Name": "Sleet Storm",
@@ -2782,7 +2782,7 @@
             "Components": "VSM",
             "Class": "Druid, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:sleet-storm"
+            "id": "sleet-storm"
         },
         {
             "Name": "Slow",
@@ -2794,7 +2794,7 @@
             "Components": "VSM",
             "Class": "Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:slow"
+            "id": "slow"
         },
         {
             "Name": "Speak with Dead",
@@ -2806,7 +2806,7 @@
             "Components": "VSM",
             "Class": "Bard, Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:speak-with-dead"
+            "id": "speak-with-dead"
         },
         {
             "Name": "Speak with Plants",
@@ -2818,7 +2818,7 @@
             "Components": "VS",
             "Class": "Bard, Druid, Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:speak-with-plants"
+            "id": "speak-with-plants"
         },
         {
             "Name": "Spirit Guardians",
@@ -2830,7 +2830,7 @@
             "Components": "VSM",
             "Class": "Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:spirit-guardians"
+            "id": "spirit-guardians"
         },
         {
             "Name": "Stinking Cloud",
@@ -2842,7 +2842,7 @@
             "Components": "VSM",
             "Class": "Bard, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:stinking-cloud"
+            "id": "stinking-cloud"
         },
         {
             "Name": "Summon Lesser Demons",
@@ -2854,7 +2854,7 @@
             "Components": "VSM",
             "Class": "Warlock, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:summon-lesser-demons"
+            "id": "summon-lesser-demons"
         },
         {
             "Name": "Thunder Step",
@@ -2866,7 +2866,7 @@
             "Components": "V",
             "Class": "Sorcerer, Warlock, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:thunder-step"
+            "id": "thunder-step"
         },
         {
             "Name": "Tidal Wave",
@@ -2878,7 +2878,7 @@
             "Components": "VSM",
             "Class": "Druid, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:tidal-wave"
+            "id": "tidal-wave"
         },
         {
             "Name": "Tiny Servant",
@@ -2890,7 +2890,7 @@
             "Components": "VS",
             "Class": "Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:tiny-servant"
+            "id": "tiny-servant"
         },
         {
             "Name": "Tongues",
@@ -2902,7 +2902,7 @@
             "Components": "VM",
             "Class": "Bard, Cleric, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:tongues"
+            "id": "tongues"
         },
         {
             "Name": "Vampiric Touch",
@@ -2914,7 +2914,7 @@
             "Components": "VS",
             "Class": "Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:vampiric-touch"
+            "id": "vampiric-touch"
         },
         {
             "Name": "Wall of Sand",
@@ -2926,7 +2926,7 @@
             "Components": "VSM",
             "Class": "Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:wall-of-sand"
+            "id": "wall-of-sand"
         },
         {
             "Name": "Wall of Water",
@@ -2938,7 +2938,7 @@
             "Components": "VSM",
             "Class": "Druid, Sorcerer, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:wall-of-water"
+            "id": "wall-of-water"
         },
         {
             "Name": "Water Breathing",
@@ -2950,7 +2950,7 @@
             "Components": "VSM",
             "Class": "Artificer, Druid, Ranger, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:water-breathing"
+            "id": "water-breathing"
         },
         {
             "Name": "Water Walk",
@@ -2962,7 +2962,7 @@
             "Components": "VSM",
             "Class": "Artificer, Cleric, Druid, Ranger, Sorcerer",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:water-walk"
+            "id": "water-walk"
         },
         {
             "Name": "Wind Wall",
@@ -2974,7 +2974,7 @@
             "Components": "VSM",
             "Class": "Druid, Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:wind-wall"
+            "id": "wind-wall"
         },
         {
             "Name": "Arcane Eye",
@@ -2986,7 +2986,7 @@
             "Components": "VSM",
             "Class": "Artificer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:arcane-eye"
+            "id": "arcane-eye"
         },
         {
             "Name": "Aura of Life",
@@ -2998,7 +2998,7 @@
             "Components": "V",
             "Class": "Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:aura-of-life"
+            "id": "aura-of-life"
         },
         {
             "Name": "Aura of Purity",
@@ -3010,7 +3010,7 @@
             "Components": "V",
             "Class": "Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:aura-of-purity"
+            "id": "aura-of-purity"
         },
         {
             "Name": "Banishment",
@@ -3022,7 +3022,7 @@
             "Components": "VSM",
             "Class": "Cleric, Paladin, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:banishment"
+            "id": "banishment"
         },
         {
             "Name": "Blight",
@@ -3034,7 +3034,7 @@
             "Components": "VS",
             "Class": "Druid, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:blight"
+            "id": "blight"
         },
         {
             "Name": "Charm Monster",
@@ -3046,7 +3046,7 @@
             "Components": "VS",
             "Class": "Bard, Druid, Sorcerer, Warlock, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:charm-monster"
+            "id": "charm-monster"
         },
         {
             "Name": "Compulsion",
@@ -3058,7 +3058,7 @@
             "Components": "VS",
             "Class": "Bard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:compulsion"
+            "id": "compulsion"
         },
         {
             "Name": "Confusion",
@@ -3070,7 +3070,7 @@
             "Components": "VSM",
             "Class": "Bard, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:confusion"
+            "id": "confusion"
         },
         {
             "Name": "Conjure Minor Elementals",
@@ -3082,7 +3082,7 @@
             "Components": "VS",
             "Class": "Druid, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:conjure-minor-elementals"
+            "id": "conjure-minor-elementals"
         },
         {
             "Name": "Conjure Woodland Beings",
@@ -3094,7 +3094,7 @@
             "Components": "VSM",
             "Class": "Druid, Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:conjure-woodland-beings"
+            "id": "conjure-woodland-beings"
         },
         {
             "Name": "Control Water",
@@ -3106,7 +3106,7 @@
             "Components": "VSM",
             "Class": "Cleric, Druid, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:control-water"
+            "id": "control-water"
         },
         {
             "Name": "Death Ward",
@@ -3118,7 +3118,7 @@
             "Components": "VS",
             "Class": "Artificer, Cleric, Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:death-ward"
+            "id": "death-ward"
         },
         {
             "Name": "Dimension Door",
@@ -3130,7 +3130,7 @@
             "Components": "V",
             "Class": "Bard, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:dimension-door"
+            "id": "dimension-door"
         },
         {
             "Name": "Divination",
@@ -3142,7 +3142,7 @@
             "Components": "VSM",
             "Class": "Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:divination"
+            "id": "divination"
         },
         {
             "Name": "Dominate Beast",
@@ -3154,7 +3154,7 @@
             "Components": "VS",
             "Class": "Druid, Sorcerer",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:dominate-beast"
+            "id": "dominate-beast"
         },
         {
             "Name": "Elemental Bane",
@@ -3166,7 +3166,7 @@
             "Components": "VS",
             "Class": "Druid, Warlock, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:elemental-bane"
+            "id": "elemental-bane"
         },
         {
             "Name": "Evard's Black Tentacles",
@@ -3178,7 +3178,7 @@
             "Components": "VSM",
             "Class": "Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:evards-black-tentacles"
+            "id": "evards-black-tentacles"
         },
         {
             "Name": "Fabricate",
@@ -3190,7 +3190,7 @@
             "Components": "VS",
             "Class": "Artificer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:fabricate"
+            "id": "fabricate"
         },
         {
             "Name": "Find Greater Steed",
@@ -3202,7 +3202,7 @@
             "Components": "VS",
             "Class": "Paladin",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:find-greater-steed"
+            "id": "find-greater-steed"
         },
         {
             "Name": "Fire Shield",
@@ -3214,7 +3214,7 @@
             "Components": "VSM",
             "Class": "Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:fire-shield"
+            "id": "fire-shield"
         },
         {
             "Name": "Freedom of Movement",
@@ -3226,7 +3226,7 @@
             "Components": "VSM",
             "Class": "Artificer, Bard, Cleric, Druid, Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:freedom-of-movement"
+            "id": "freedom-of-movement"
         },
         {
             "Name": "Giant Insect",
@@ -3238,7 +3238,7 @@
             "Components": "VS",
             "Class": "Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:giant-insect"
+            "id": "giant-insect"
         },
         {
             "Name": "Grasping Vine",
@@ -3250,7 +3250,7 @@
             "Components": "VS",
             "Class": "Druid, Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:grasping-vine"
+            "id": "grasping-vine"
         },
         {
             "Name": "Greater Invisibility",
@@ -3262,7 +3262,7 @@
             "Components": "VS",
             "Class": "Bard, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:greater-invisibility"
+            "id": "greater-invisibility"
         },
         {
             "Name": "Guardian of Faith",
@@ -3274,7 +3274,7 @@
             "Components": "V",
             "Class": "Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:guardian-of-faith"
+            "id": "guardian-of-faith"
         },
         {
             "Name": "Guardian of Nature",
@@ -3286,7 +3286,7 @@
             "Components": "V",
             "Class": "Druid, Ranger",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:guardian-of-nature"
+            "id": "guardian-of-nature"
         },
         {
             "Name": "Hallucinatory Terrain",
@@ -3298,7 +3298,7 @@
             "Components": "VSM",
             "Class": "Bard, Druid, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:hallucinatory-terrain"
+            "id": "hallucinatory-terrain"
         },
         {
             "Name": "Ice Storm",
@@ -3310,7 +3310,7 @@
             "Components": "VSM",
             "Class": "Druid, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:ice-storm"
+            "id": "ice-storm"
         },
         {
             "Name": "Leomund's Secret Chest",
@@ -3322,7 +3322,7 @@
             "Components": "VSM",
             "Class": "Artificer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:leomunds-secret-chest"
+            "id": "leomunds-secret-chest"
         },
         {
             "Name": "Locate Creature",
@@ -3334,7 +3334,7 @@
             "Components": "VSM",
             "Class": "Bard, Cleric, Druid, Paladin, Ranger, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:locate-creature"
+            "id": "locate-creature"
         },
         {
             "Name": "Mordenkainen's Faithful Hound",
@@ -3346,7 +3346,7 @@
             "Components": "VSM",
             "Class": "Artificer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:mordenkainens-faithful-hound"
+            "id": "mordenkainens-faithful-hound"
         },
         {
             "Name": "Mordenkainen's Private Sanctum",
@@ -3358,7 +3358,7 @@
             "Components": "VSM",
             "Class": "Artificer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:mordenkainens-private-sanctum"
+            "id": "mordenkainens-private-sanctum"
         },
         {
             "Name": "Otiluke's Resilient Sphere",
@@ -3370,7 +3370,7 @@
             "Components": "VSM",
             "Class": "Artificer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:otilukes-resilient-sphere"
+            "id": "otilukes-resilient-sphere"
         },
         {
             "Name": "Phantasmal Killer",
@@ -3382,7 +3382,7 @@
             "Components": "VS",
             "Class": "Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:phantasmal-killer"
+            "id": "phantasmal-killer"
         },
         {
             "Name": "Polymorph",
@@ -3394,7 +3394,7 @@
             "Components": "VSM",
             "Class": "Bard, Druid, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:polymorph"
+            "id": "polymorph"
         },
         {
             "Name": "Shadow of Moil",
@@ -3406,7 +3406,7 @@
             "Components": "VSM",
             "Class": "Warlock",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:shadow-of-moil"
+            "id": "shadow-of-moil"
         },
         {
             "Name": "Sickening Radiance",
@@ -3418,7 +3418,7 @@
             "Components": "VS",
             "Class": "Sorcerer, Warlock, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:sickening-radiance"
+            "id": "sickening-radiance"
         },
         {
             "Name": "Staggering Smite",
@@ -3430,7 +3430,7 @@
             "Components": "V",
             "Class": "Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:staggering-smite"
+            "id": "staggering-smite"
         },
         {
             "Name": "Stone Shape",
@@ -3442,7 +3442,7 @@
             "Components": "VSM",
             "Class": "Artificer, Cleric, Druid, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:stone-shape"
+            "id": "stone-shape"
         },
         {
             "Name": "Stoneskin",
@@ -3454,7 +3454,7 @@
             "Components": "VSM",
             "Class": "Artificer, Druid, Ranger, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:stoneskin"
+            "id": "stoneskin"
         },
         {
             "Name": "Storm Sphere",
@@ -3466,7 +3466,7 @@
             "Components": "VS",
             "Class": "Sorcerer, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:storm-sphere"
+            "id": "storm-sphere"
         },
         {
             "Name": "Summon Greater Demon",
@@ -3478,7 +3478,7 @@
             "Components": "VSM",
             "Class": "Warlock, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:summon-greater-demon"
+            "id": "summon-greater-demon"
         },
         {
             "Name": "Vitriolic Sphere",
@@ -3490,7 +3490,7 @@
             "Components": "VSM",
             "Class": "Sorcerer, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:vitriolic-sphere"
+            "id": "vitriolic-sphere"
         },
         {
             "Name": "Wall of Fire",
@@ -3502,7 +3502,7 @@
             "Components": "VSM",
             "Class": "Druid, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:wall-of-fire"
+            "id": "wall-of-fire"
         },
         {
             "Name": "Watery Sphere",
@@ -3514,7 +3514,7 @@
             "Components": "VSM",
             "Class": "Druid, Sorcerer, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:watery-sphere"
+            "id": "watery-sphere"
         },
         {
             "Name": "Animate Objects",
@@ -3526,7 +3526,7 @@
             "Components": "VS",
             "Class": "Artificer, Bard, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:animate-objects"
+            "id": "animate-objects"
         },
         {
             "Name": "Antilife Shell",
@@ -3538,7 +3538,7 @@
             "Components": "VS",
             "Class": "Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:antilife-shell"
+            "id": "antilife-shell"
         },
         {
             "Name": "Awaken",
@@ -3550,7 +3550,7 @@
             "Components": "VSM",
             "Class": "Bard, Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:awaken"
+            "id": "awaken"
         },
         {
             "Name": "Banishing Smite",
@@ -3562,7 +3562,7 @@
             "Components": "V",
             "Class": "Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:banishing-smite"
+            "id": "banishing-smite"
         },
         {
             "Name": "Bigby's Hand",
@@ -3574,7 +3574,7 @@
             "Components": "VSM",
             "Class": "Artificer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:bigbys-hand"
+            "id": "bigbys-hand"
         },
         {
             "Name": "Circle of Power",
@@ -3586,7 +3586,7 @@
             "Components": "V",
             "Class": "Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:circle-of-power"
+            "id": "circle-of-power"
         },
         {
             "Name": "Cloudkill",
@@ -3598,7 +3598,7 @@
             "Components": "VS",
             "Class": "Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:cloudkill"
+            "id": "cloudkill"
         },
         {
             "Name": "Commune",
@@ -3610,7 +3610,7 @@
             "Components": "VSM",
             "Class": "Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:commune"
+            "id": "commune"
         },
         {
             "Name": "Commune with Nature",
@@ -3622,7 +3622,7 @@
             "Components": "VS",
             "Class": "Druid, Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:commune-with-nature"
+            "id": "commune-with-nature"
         },
         {
             "Name": "Cone of Cold",
@@ -3634,7 +3634,7 @@
             "Components": "VSM",
             "Class": "Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:cone-of-cold"
+            "id": "cone-of-cold"
         },
         {
             "Name": "Conjure Elemental",
@@ -3646,7 +3646,7 @@
             "Components": "VSM",
             "Class": "Druid, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:conjure-elemental"
+            "id": "conjure-elemental"
         },
         {
             "Name": "Conjure Volley",
@@ -3658,7 +3658,7 @@
             "Components": "VSM",
             "Class": "Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:conjure-volley"
+            "id": "conjure-volley"
         },
         {
             "Name": "Contact Other Plane",
@@ -3670,7 +3670,7 @@
             "Components": "V",
             "Class": "Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:contact-other-plane"
+            "id": "contact-other-plane"
         },
         {
             "Name": "Contagion",
@@ -3682,7 +3682,7 @@
             "Components": "VS",
             "Class": "Cleric, Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:contagion"
+            "id": "contagion"
         },
         {
             "Name": "Control Winds",
@@ -3694,7 +3694,7 @@
             "Components": "VS",
             "Class": "Druid, Sorcerer, Wizard",
             "Book": "EE",
-            "url": "http://dnd5e.wikidot.com/spell:control-winds"
+            "id": "control-winds"
         },
         {
             "Name": "Creation",
@@ -3706,7 +3706,7 @@
             "Components": "VSM",
             "Class": "Artificer, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:creation"
+            "id": "creation"
         },
         {
             "Name": "Danse Macabre",
@@ -3718,7 +3718,7 @@
             "Components": "VS",
             "Class": "Warlock, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:danse-macabre"
+            "id": "danse-macabre"
         },
         {
             "Name": "Dawn",
@@ -3730,7 +3730,7 @@
             "Components": "VSM",
             "Class": "Cleric, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:dawn"
+            "id": "dawn"
         },
         {
             "Name": "Destructive Wave",
@@ -3742,7 +3742,7 @@
             "Components": "V",
             "Class": "Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:destructive-wave"
+            "id": "destructive-wave"
         },
         {
             "Name": "Dispel Evil and Good",
@@ -3754,7 +3754,7 @@
             "Components": "VSM",
             "Class": "Cleric, Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:dispel-evil-and-good"
+            "id": "dispel-evil-and-good"
         },
         {
             "Name": "Dominate Person",
@@ -3766,7 +3766,7 @@
             "Components": "VS",
             "Class": "Bard, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:dominate-person"
+            "id": "dominate-person"
         },
         {
             "Name": "Dream",
@@ -3778,7 +3778,7 @@
             "Components": "VSM",
             "Class": "Bard, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:dream"
+            "id": "dream"
         },
         {
             "Name": "Enervation",
@@ -3790,7 +3790,7 @@
             "Components": "VS",
             "Class": "Sorcerer, Warlock, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:enervation"
+            "id": "enervation"
         },
         {
             "Name": "Far Step",
@@ -3802,7 +3802,7 @@
             "Components": "V",
             "Class": "Sorcerer, Warlock, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:far-step"
+            "id": "far-step"
         },
         {
             "Name": "Flame Strike",
@@ -3814,7 +3814,7 @@
             "Components": "VSM",
             "Class": "Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:flame-strike"
+            "id": "flame-strike"
         },
         {
             "Name": "Geas",
@@ -3826,7 +3826,7 @@
             "Components": "V",
             "Class": "Bard, Cleric, Druid, Paladin, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:geas"
+            "id": "geas"
         },
         {
             "Name": "Greater Restoration",
@@ -3838,7 +3838,7 @@
             "Components": "VSM",
             "Class": "Artificer, Bard, Cleric, Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:greater-restoration"
+            "id": "greater-restoration"
         },
         {
             "Name": "Hallow",
@@ -3850,7 +3850,7 @@
             "Components": "VSM",
             "Class": "Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:hallow"
+            "id": "hallow"
         },
         {
             "Name": "Hold Monster",
@@ -3862,7 +3862,7 @@
             "Components": "VSM",
             "Class": "Bard, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:hold-monster"
+            "id": "hold-monster"
         },
         {
             "Name": "Holy Weapon",
@@ -3874,7 +3874,7 @@
             "Components": "VS",
             "Class": "Cleric, Paladin",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:holy-weapon"
+            "id": "holy-weapon"
         },
         {
             "Name": "Immolation",
@@ -3886,7 +3886,7 @@
             "Components": "V",
             "Class": "Sorcerer, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:immolation"
+            "id": "immolation"
         },
         {
             "Name": "Infernal Calling",
@@ -3898,7 +3898,7 @@
             "Components": "VSM",
             "Class": "Warlock, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:infernal-calling"
+            "id": "infernal-calling"
         },
         {
             "Name": "Insect Plague",
@@ -3910,7 +3910,7 @@
             "Components": "VSM",
             "Class": "Cleric, Druid, Sorcerer",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:insect-plague"
+            "id": "insect-plague"
         },
         {
             "Name": "Legend Lore",
@@ -3922,7 +3922,7 @@
             "Components": "VSM",
             "Class": "Bard, Cleric, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:legend-lore"
+            "id": "legend-lore"
         },
         {
             "Name": "Maelstrom",
@@ -3934,7 +3934,7 @@
             "Components": "VSM",
             "Class": "Druid",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:maelstrom"
+            "id": "maelstrom"
         },
         {
             "Name": "Mass Cure Wounds",
@@ -3946,7 +3946,7 @@
             "Components": "VS",
             "Class": "Bard, Cleric, Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:mass-cure-wounds"
+            "id": "mass-cure-wounds"
         },
         {
             "Name": "Mislead",
@@ -3958,7 +3958,7 @@
             "Components": "S",
             "Class": "Bard, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:mislead"
+            "id": "mislead"
         },
         {
             "Name": "Modify Memory",
@@ -3970,7 +3970,7 @@
             "Components": "VS",
             "Class": "Bard, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:modify-memory"
+            "id": "modify-memory"
         },
         {
             "Name": "Negative Energy Flood",
@@ -3982,7 +3982,7 @@
             "Components": "VM",
             "Class": "Warlock, Wizard,",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:negative-energy-flood"
+            "id": "negative-energy-flood"
         },
         {
             "Name": "Passwall",
@@ -3994,7 +3994,7 @@
             "Components": "VSM",
             "Class": "Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:passwall"
+            "id": "passwall"
         },
         {
             "Name": "Planar Binding",
@@ -4006,7 +4006,7 @@
             "Components": "VSM",
             "Class": "Bard, Cleric, Druid, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:planar-binding"
+            "id": "planar-binding"
         },
         {
             "Name": "Raise Dead",
@@ -4018,7 +4018,7 @@
             "Components": "VSM",
             "Class": "Bard, Cleric, Paladin",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:raise-dead"
+            "id": "raise-dead"
         },
         {
             "Name": "Rary's Telepathic Bond",
@@ -4030,7 +4030,7 @@
             "Components": "VSM",
             "Class": "Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:rarys-telepathic-bond"
+            "id": "rarys-telepathic-bond"
         },
         {
             "Name": "Reincarnate",
@@ -4042,7 +4042,7 @@
             "Components": "VSM",
             "Class": "Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:reincarnate"
+            "id": "reincarnate"
         },
         {
             "Name": "Scrying",
@@ -4054,7 +4054,7 @@
             "Components": "VSM",
             "Class": "Bard, Cleric, Druid, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:scrying"
+            "id": "scrying"
         },
         {
             "Name": "Seeming",
@@ -4066,7 +4066,7 @@
             "Components": "VS",
             "Class": "Bard, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:seeming"
+            "id": "seeming"
         },
         {
             "Name": "Skill Empowerment",
@@ -4078,7 +4078,7 @@
             "Components": "VS",
             "Class": "Bard, Sorcerer, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:skill-empowerment"
+            "id": "skill-empowerment"
         },
         {
             "Name": "Steel Wind Strike",
@@ -4090,7 +4090,7 @@
             "Components": "SM",
             "Class": "Ranger, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:steel-wind-strike"
+            "id": "steel-wind-strike"
         },
         {
             "Name": "Swift Quiver",
@@ -4102,7 +4102,7 @@
             "Components": "VSM",
             "Class": "Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:swift-quiver"
+            "id": "swift-quiver"
         },
         {
             "Name": "Synaptic Static",
@@ -4114,7 +4114,7 @@
             "Components": "VS",
             "Class": " Bard, Sorcerer, Warlock, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:synaptic-static"
+            "id": "synaptic-static"
         },
         {
             "Name": "Telekinesis",
@@ -4126,7 +4126,7 @@
             "Components": "VS",
             "Class": "Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:telekinesis"
+            "id": "telekinesis"
         },
         {
             "Name": "Teleportation Circle",
@@ -4138,7 +4138,7 @@
             "Components": "VM",
             "Class": "Bard, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:teleportation-circle"
+            "id": "teleportation-circle"
         },
         {
             "Name": "Transmute Rock",
@@ -4150,7 +4150,7 @@
             "Components": "VSM",
             "Class": "Druid, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:transmute-rock"
+            "id": "transmute-rock"
         },
         {
             "Name": "Tree Stride",
@@ -4162,7 +4162,7 @@
             "Components": "VS",
             "Class": "Druid, Ranger",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:tree-stride"
+            "id": "tree-stride"
         },
         {
             "Name": "Wall of Force",
@@ -4174,7 +4174,7 @@
             "Components": "VSM",
             "Class": "Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:wall-of-force"
+            "id": "wall-of-force"
         },
         {
             "Name": "Wall of Light",
@@ -4186,7 +4186,7 @@
             "Components": "VSM",
             "Class": " Sorcerer, Warlock, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:wall-of-light"
+            "id": "wall-of-light"
         },
         {
             "Name": "Wall of Stone",
@@ -4198,7 +4198,7 @@
             "Components": "VSM",
             "Class": "Artificer, Druid, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:wall-of-stone"
+            "id": "wall-of-stone"
         },
         {
             "Name": "Wrath of Nature",
@@ -4210,7 +4210,7 @@
             "Components": "VS",
             "Class": "Druid, Ranger",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:wrath-of-nature"
+            "id": "wrath-of-nature"
         },
         {
             "Name": "Arcane Gate",
@@ -4222,7 +4222,7 @@
             "Components": "VS",
             "Class": "Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:arcane-gate"
+            "id": "arcane-gate"
         },
         {
             "Name": "Blade Barrier",
@@ -4234,7 +4234,7 @@
             "Components": "VS",
             "Class": "Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:blade-barrier"
+            "id": "blade-barrier"
         },
         {
             "Name": "Bones of the Earth",
@@ -4246,7 +4246,7 @@
             "Components": "VS",
             "Class": "Druid",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:bones-of-the-earth"
+            "id": "bones-of-the-earth"
         },
         {
             "Name": "Chain Lightning",
@@ -4258,7 +4258,7 @@
             "Components": "VSM",
             "Class": "Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:chain-lightning"
+            "id": "chain-lightning"
         },
         {
             "Name": "Circle of Death",
@@ -4270,7 +4270,7 @@
             "Components": "VSM",
             "Class": "Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:circle-of-death"
+            "id": "circle-of-death"
         },
         {
             "Name": "Conjure Fey",
@@ -4282,7 +4282,7 @@
             "Components": "VS",
             "Class": "Druid, Warlock",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:conjure-fey"
+            "id": "conjure-fey"
         },
         {
             "Name": "Contingency",
@@ -4294,7 +4294,7 @@
             "Components": "VSM",
             "Class": "Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:contingency"
+            "id": "contingency"
         },
         {
             "Name": "Create Homunculus",
@@ -4306,7 +4306,7 @@
             "Components": "VSM",
             "Class": "Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:create-homunculus"
+            "id": "create-homunculus"
         },
         {
             "Name": "Create Undead",
@@ -4318,7 +4318,7 @@
             "Components": "VSM",
             "Class": "Cleric, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:create-undead"
+            "id": "create-undead"
         },
         {
             "Name": "Disintegrate",
@@ -4330,7 +4330,7 @@
             "Components": "VSM",
             "Class": "Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:disintegrate"
+            "id": "disintegrate"
         },
         {
             "Name": "Drawmij's Instant Summons",
@@ -4342,7 +4342,7 @@
             "Components": "VSM",
             "Class": "Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:drawmijs-instant-summons"
+            "id": "drawmijs-instant-summons"
         },
         {
             "Name": "Druid Grove",
@@ -4354,7 +4354,7 @@
             "Components": "VSM",
             "Class": "Druid",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:druid-grove"
+            "id": "druid-grove"
         },
         {
             "Name": "Eyebite",
@@ -4366,7 +4366,7 @@
             "Components": "VS",
             "Class": "Bard, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:eyebite"
+            "id": "eyebite"
         },
         {
             "Name": "Find the Path",
@@ -4378,7 +4378,7 @@
             "Components": "VSM",
             "Class": "Bard, Cleric, Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:find-the-path"
+            "id": "find-the-path"
         },
         {
             "Name": "Flesh to Stone",
@@ -4390,7 +4390,7 @@
             "Components": "VSM",
             "Class": "Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:flesh-to-stone"
+            "id": "flesh-to-stone"
         },
         {
             "Name": "Forbiddance",
@@ -4402,7 +4402,7 @@
             "Components": "VSM",
             "Class": "Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:forbiddance"
+            "id": "forbiddance"
         },
         {
             "Name": "Globe of Invulnerability",
@@ -4414,7 +4414,7 @@
             "Components": "VSM",
             "Class": "Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:globe-of-invulnerability"
+            "id": "globe-of-invulnerability"
         },
         {
             "Name": "Guards and Wards",
@@ -4426,7 +4426,7 @@
             "Components": "VSM",
             "Class": "Bard, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:guards-and-wards"
+            "id": "guards-and-wards"
         },
         {
             "Name": "Harm",
@@ -4438,7 +4438,7 @@
             "Components": "VS",
             "Class": "Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:harm"
+            "id": "harm"
         },
         {
             "Name": "Heal",
@@ -4450,7 +4450,7 @@
             "Components": "VS",
             "Class": "Cleric, Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:heal"
+            "id": "heal"
         },
         {
             "Name": "Heroes' Feast",
@@ -4462,7 +4462,7 @@
             "Components": "VSM",
             "Class": "Cleric, Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:heroes-feast"
+            "id": "heroes-feast"
         },
         {
             "Name": "Investiture of Flame",
@@ -4474,7 +4474,7 @@
             "Components": "VS",
             "Class": "Druid, Sorcerer, Warlock, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:investiture-of-flame"
+            "id": "investiture-of-flame"
         },
         {
             "Name": "Investiture of Ice",
@@ -4486,7 +4486,7 @@
             "Components": "VS",
             "Class": "Druid, Sorcerer, Warlock, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:investiture-of-ice"
+            "id": "investiture-of-ice"
         },
         {
             "Name": "Investiture of Stone",
@@ -4498,7 +4498,7 @@
             "Components": "VS",
             "Class": "Druid, Sorcerer, Warlock, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:investiture-of-stone"
+            "id": "investiture-of-stone"
         },
         {
             "Name": "Investiture of Wind",
@@ -4510,7 +4510,7 @@
             "Components": "VS",
             "Class": "Druid, Sorcerer, Warlock, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:investiture-of-wind"
+            "id": "investiture-of-wind"
         },
         {
             "Name": "Magic Jar",
@@ -4522,7 +4522,7 @@
             "Components": "VSM",
             "Class": "Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:magic-jar"
+            "id": "magic-jar"
         },
         {
             "Name": "Mass Suggestion",
@@ -4534,7 +4534,7 @@
             "Components": "VM",
             "Class": "Bard, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:mass-suggestion"
+            "id": "mass-suggestion"
         },
         {
             "Name": "Mental Prison",
@@ -4546,7 +4546,7 @@
             "Components": "S",
             "Class": "Sorcerer, Warlock, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:mental-prison"
+            "id": "mental-prison"
         },
         {
             "Name": "Move Earth",
@@ -4558,7 +4558,7 @@
             "Components": "VSM",
             "Class": "Druid, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:move-earth"
+            "id": "move-earth"
         },
         {
             "Name": "Otiluke's Freezing Sphere",
@@ -4570,7 +4570,7 @@
             "Components": "VSM",
             "Class": "Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:otilukes-freezing-sphere"
+            "id": "otilukes-freezing-sphere"
         },
         {
             "Name": "Otto's Irresistible Dance",
@@ -4582,7 +4582,7 @@
             "Components": "V",
             "Class": "Bard, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:ottos-irresistible-dance"
+            "id": "ottos-irresistible-dance"
         },
         {
             "Name": "Planar Ally",
@@ -4594,7 +4594,7 @@
             "Components": "VS",
             "Class": "Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:planar-ally"
+            "id": "planar-ally"
         },
         {
             "Name": "Primordial Ward",
@@ -4606,7 +4606,7 @@
             "Components": "VS",
             "Class": "Druid",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:primordial-ward"
+            "id": "primordial-ward"
         },
         {
             "Name": "Programmed Illusion",
@@ -4618,7 +4618,7 @@
             "Components": "VSM",
             "Class": "Bard, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:programmed-illusion"
+            "id": "programmed-illusion"
         },
         {
             "Name": "Scatter",
@@ -4630,7 +4630,7 @@
             "Components": "V",
             "Class": "Sorcerer, Warlock, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:scatter"
+            "id": "scatter"
         },
         {
             "Name": "Soul Cage",
@@ -4642,7 +4642,7 @@
             "Components": "VSM",
             "Class": "Warlock, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:soul-cage"
+            "id": "soul-cage"
         },
         {
             "Name": "Sunbeam",
@@ -4654,7 +4654,7 @@
             "Components": "VSM",
             "Class": "Druid, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:sunbeam"
+            "id": "sunbeam"
         },
         {
             "Name": "Tenser's Transformation",
@@ -4666,7 +4666,7 @@
             "Components": "VSM",
             "Class": "Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:tensers-transformation"
+            "id": "tensers-transformation"
         },
         {
             "Name": "Transport via Plants",
@@ -4678,7 +4678,7 @@
             "Components": "VS",
             "Class": "Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:transport-via-plants"
+            "id": "transport-via-plants"
         },
         {
             "Name": "True Seeing",
@@ -4690,7 +4690,7 @@
             "Components": "VSM",
             "Class": "Bard, Cleric, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:true-seeing"
+            "id": "true-seeing"
         },
         {
             "Name": "Wall of Ice",
@@ -4702,7 +4702,7 @@
             "Components": "VSM",
             "Class": "Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:wall-of-ice"
+            "id": "wall-of-ice"
         },
         {
             "Name": "Wall of Thorns",
@@ -4714,7 +4714,7 @@
             "Components": "VSM",
             "Class": "Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:wall-of-thorns"
+            "id": "wall-of-thorns"
         },
         {
             "Name": "Wind Walk",
@@ -4726,7 +4726,7 @@
             "Components": "VSM",
             "Class": "Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:wind-walk"
+            "id": "wind-walk"
         },
         {
             "Name": "Word of Recall",
@@ -4738,7 +4738,7 @@
             "Components": "V",
             "Class": "Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:word-of-recall"
+            "id": "word-of-recall"
         },
         {
             "Name": "Conjure Celestial",
@@ -4750,7 +4750,7 @@
             "Components": "VS",
             "Class": "Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:conjure-celestial"
+            "id": "conjure-celestial"
         },
         {
             "Name": "Crown of Stars",
@@ -4762,7 +4762,7 @@
             "Components": "VS",
             "Class": "Sorcerer, Warlock, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:crown-of-stars"
+            "id": "crown-of-stars"
         },
         {
             "Name": "Delayed Blast Fireball",
@@ -4774,7 +4774,7 @@
             "Components": "VSM",
             "Class": "Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:delayed-blast-fireball"
+            "id": "delayed-blast-fireball"
         },
         {
             "Name": "Divine Word",
@@ -4786,7 +4786,7 @@
             "Components": "V",
             "Class": "Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:divine-word"
+            "id": "divine-word"
         },
         {
             "Name": "Etherealness",
@@ -4798,7 +4798,7 @@
             "Components": "VS",
             "Class": "Bard, Cleric, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:etherealness"
+            "id": "etherealness"
         },
         {
             "Name": "Finger of Death",
@@ -4810,7 +4810,7 @@
             "Components": "VS",
             "Class": "Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:finger-of-death"
+            "id": "finger-of-death"
         },
         {
             "Name": "Fire Storm",
@@ -4822,7 +4822,7 @@
             "Components": "VS",
             "Class": "Cleric, Druid, Sorcerer",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:fire-storm"
+            "id": "fire-storm"
         },
         {
             "Name": "Forcecage",
@@ -4834,7 +4834,7 @@
             "Components": "VSM",
             "Class": "Bard, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:forcecage"
+            "id": "forcecage"
         },
         {
             "Name": "Mirage Arcane",
@@ -4846,7 +4846,7 @@
             "Components": "VS",
             "Class": "Bard, Druid, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:mirage-arcane"
+            "id": "mirage-arcane"
         },
         {
             "Name": "Mordenkainen's Magnificent Mansion",
@@ -4858,7 +4858,7 @@
             "Components": "VSM",
             "Class": "Bard, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:mordenkainens-magnificent-mansion"
+            "id": "mordenkainens-magnificent-mansion"
         },
         {
             "Name": "Mordenkainen's Sword",
@@ -4870,7 +4870,7 @@
             "Components": "VSM",
             "Class": "Bard, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:mordenkainens-sword"
+            "id": "mordenkainens-sword"
         },
         {
             "Name": "Plane Shift",
@@ -4882,7 +4882,7 @@
             "Components": "VSM",
             "Class": "Cleric, Druid, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:plane-shift"
+            "id": "plane-shift"
         },
         {
             "Name": "Power Word Pain",
@@ -4894,7 +4894,7 @@
             "Components": "V",
             "Class": "Sorcerer, Warlock, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:power-word-pain"
+            "id": "power-word-pain"
         },
         {
             "Name": "Prismatic Spray",
@@ -4906,7 +4906,7 @@
             "Components": "VS",
             "Class": "Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:prismatic-spray"
+            "id": "prismatic-spray"
         },
         {
             "Name": "Project Image",
@@ -4918,7 +4918,7 @@
             "Components": "VSM",
             "Class": "Bard, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:project-image"
+            "id": "project-image"
         },
         {
             "Name": "Regenerate",
@@ -4930,7 +4930,7 @@
             "Components": "VSM",
             "Class": "Bard, Cleric, Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:regenerate"
+            "id": "regenerate"
         },
         {
             "Name": "Resurrection",
@@ -4942,7 +4942,7 @@
             "Components": "VSM",
             "Class": "Bard, Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:resurrection"
+            "id": "resurrection"
         },
         {
             "Name": "Reverse Gravity",
@@ -4954,7 +4954,7 @@
             "Components": "VSM",
             "Class": "Druid, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:reverse-gravity"
+            "id": "reverse-gravity"
         },
         {
             "Name": "Sequester",
@@ -4966,7 +4966,7 @@
             "Components": "VSM",
             "Class": "Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:sequester"
+            "id": "sequester"
         },
         {
             "Name": "Simulacrum",
@@ -4978,7 +4978,7 @@
             "Components": "VSM",
             "Class": "Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:simulacrum"
+            "id": "simulacrum"
         },
         {
             "Name": "Symbol",
@@ -4990,7 +4990,7 @@
             "Components": "VSM",
             "Class": "Bard, Cleric, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:symbol"
+            "id": "symbol"
         },
         {
             "Name": "Teleport",
@@ -5002,7 +5002,7 @@
             "Components": "V",
             "Class": "Bard, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:teleport"
+            "id": "teleport"
         },
         {
             "Name": "Temple of the Gods",
@@ -5014,7 +5014,7 @@
             "Components": "VSM",
             "Class": "Cleric",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:temple-of-the-gods"
+            "id": "temple-of-the-gods"
         },
         {
             "Name": "Whirlwind",
@@ -5026,7 +5026,7 @@
             "Components": "VM",
             "Class": "Druid, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:whirlwind"
+            "id": "whirlwind"
         },
         {
             "Name": "Abi-Dalzim's Horrid Wilting",
@@ -5038,7 +5038,7 @@
             "Components": "VSM",
             "Class": "Sorcerer, Wizard",
             "Book": "EE, XGE",
-            "url": "http://dnd5e.wikidot.com/spell:abi-dalzims-horrid-wilting"
+            "id": "abi-dalzims-horrid-wilting"
         },
         {
             "Name": "Animal Shapes",
@@ -5050,7 +5050,7 @@
             "Components": "VS",
             "Class": "Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:animal-shapes"
+            "id": "animal-shapes"
         },
         {
             "Name": "Antimagic Field",
@@ -5062,7 +5062,7 @@
             "Components": "VSM",
             "Class": "Cleric, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:antimagic-field"
+            "id": "antimagic-field"
         },
         {
             "Name": "Antipathy/Sympathy",
@@ -5074,7 +5074,7 @@
             "Components": "VSM",
             "Class": "Druid, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:antipathy-sympathy"
+            "id": "antipathy-sympathy"
         },
         {
             "Name": "Clone",
@@ -5086,7 +5086,7 @@
             "Components": "VSM",
             "Class": "Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:clone"
+            "id": "clone"
         },
         {
             "Name": "Control Weather",
@@ -5098,7 +5098,7 @@
             "Components": "VSM",
             "Class": "Cleric, Druid, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:control-weather"
+            "id": "control-weather"
         },
         {
             "Name": "Demiplane",
@@ -5110,7 +5110,7 @@
             "Components": "S",
             "Class": "Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:demiplane"
+            "id": "demiplane"
         },
         {
             "Name": "Dominate Monster",
@@ -5122,7 +5122,7 @@
             "Components": "VS",
             "Class": "Bard, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:dominate-monster"
+            "id": "dominate-monster"
         },
         {
             "Name": "Earthquake",
@@ -5134,7 +5134,7 @@
             "Components": "VSM",
             "Class": "Cleric, Druid, Sorcerer",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:earthquake"
+            "id": "earthquake"
         },
         {
             "Name": "Feeblemind",
@@ -5146,7 +5146,7 @@
             "Components": "VSM",
             "Class": "Bard, Druid, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:feeblemind"
+            "id": "feeblemind"
         },
         {
             "Name": "Glibness",
@@ -5158,7 +5158,7 @@
             "Components": "V",
             "Class": "Bard, Warlock",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:glibness"
+            "id": "glibness"
         },
         {
             "Name": "Holy Aura",
@@ -5170,7 +5170,7 @@
             "Components": "VSM",
             "Class": "Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:holy-aura"
+            "id": "holy-aura"
         },
         {
             "Name": "Illusory Dragon",
@@ -5182,7 +5182,7 @@
             "Components": "S",
             "Class": "Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:illusory-dragon"
+            "id": "illusory-dragon"
         },
         {
             "Name": "Incendiary Cloud",
@@ -5194,7 +5194,7 @@
             "Components": "VS",
             "Class": "Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:incendiary-cloud"
+            "id": "incendiary-cloud"
         },
         {
             "Name": "Maddening Darkness",
@@ -5206,7 +5206,7 @@
             "Components": "VM",
             "Class": "Warlock, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:maddening-darkness"
+            "id": "maddening-darkness"
         },
         {
             "Name": "Maze",
@@ -5218,7 +5218,7 @@
             "Components": "VS",
             "Class": "Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:maze"
+            "id": "maze"
         },
         {
             "Name": "Mighty Fortress",
@@ -5230,7 +5230,7 @@
             "Components": "VSM",
             "Class": "Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:mighty-fortress"
+            "id": "mighty-fortress"
         },
         {
             "Name": "Mind Blank",
@@ -5242,7 +5242,7 @@
             "Components": "VS",
             "Class": "Bard, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:mind-blank"
+            "id": "mind-blank"
         },
         {
             "Name": "Power Word Stun",
@@ -5254,7 +5254,7 @@
             "Components": "V",
             "Class": "Bard, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:power-word-stun"
+            "id": "power-word-stun"
         },
         {
             "Name": "Sunburst",
@@ -5266,7 +5266,7 @@
             "Components": "VSM",
             "Class": "Druid, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:sunburst"
+            "id": "sunburst"
         },
         {
             "Name": "Telepathy",
@@ -5278,7 +5278,7 @@
             "Components": "VSM",
             "Class": "Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:telepathy"
+            "id": "telepathy"
         },
         {
             "Name": "Tsunami",
@@ -5290,7 +5290,7 @@
             "Components": "VS",
             "Class": "Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:tsunami"
+            "id": "tsunami"
         },
         {
             "Name": "Astral Projection",
@@ -5302,7 +5302,7 @@
             "Components": "VSM",
             "Class": "Cleric, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:astral-projection"
+            "id": "astral-projection"
         },
         {
             "Name": "Foresight",
@@ -5314,7 +5314,7 @@
             "Components": "VSM",
             "Class": "Bard, Druid, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:foresight"
+            "id": "foresight"
         },
         {
             "Name": "Gate",
@@ -5326,7 +5326,7 @@
             "Components": "VSM",
             "Class": "Cleric, Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:gate"
+            "id": "gate"
         },
         {
             "Name": "Imprisonment",
@@ -5338,7 +5338,7 @@
             "Components": "VSM",
             "Class": "Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:imprisonment"
+            "id": "imprisonment"
         },
         {
             "Name": "Invulnerability",
@@ -5350,7 +5350,7 @@
             "Components": "VSM",
             "Class": "Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:invulnerability"
+            "id": "invulnerability"
         },
         {
             "Name": "Mass Heal",
@@ -5362,7 +5362,7 @@
             "Components": "VS",
             "Class": "Cleric",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:mass-heal"
+            "id": "mass-heal"
         },
         {
             "Name": "Mass Polymorph",
@@ -5374,7 +5374,7 @@
             "Components": "VSM",
             "Class": "Sorcerer, Wizard, Bard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:mass-polymorph"
+            "id": "mass-polymorph"
         },
         {
             "Name": "Meteor Swarm",
@@ -5386,7 +5386,7 @@
             "Components": "VS",
             "Class": "Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:meteor-swarm"
+            "id": "meteor-swarm"
         },
         {
             "Name": "Power Word Heal",
@@ -5398,7 +5398,7 @@
             "Components": "VS",
             "Class": "Bard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:power-word-heal"
+            "id": "power-word-heal"
         },
         {
             "Name": "Power Word Kill",
@@ -5410,7 +5410,7 @@
             "Components": "V",
             "Class": "Bard, Sorcerer, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:power-word-kill"
+            "id": "power-word-kill"
         },
         {
             "Name": "Prismatic Wall",
@@ -5422,7 +5422,7 @@
             "Components": "VS",
             "Class": "Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:prismatic-wall"
+            "id": "prismatic-wall"
         },
         {
             "Name": "Psychic Scream",
@@ -5434,7 +5434,7 @@
             "Components": "S",
             "Class": "Bard, Sorcerer, Warlock, Wizard",
             "Book": "XGE",
-            "url": "http://dnd5e.wikidot.com/spell:psychic-scream"
+            "id": "psychic-scream"
         },
         {
             "Name": "Shapechange",
@@ -5446,7 +5446,7 @@
             "Components": "VSM",
             "Class": "Druid, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:shapechange"
+            "id": "shapechange"
         },
         {
             "Name": "Storm of Vengeance",
@@ -5458,7 +5458,7 @@
             "Components": "VS",
             "Class": "Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:storm-of-vengeance"
+            "id": "storm-of-vengeance"
         },
         {
             "Name": "Time Stop",
@@ -5470,7 +5470,7 @@
             "Components": "V",
             "Class": "Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:time-stop"
+            "id": "time-stop"
         },
         {
             "Name": "True Polymorph",
@@ -5482,7 +5482,7 @@
             "Components": "VSM",
             "Class": "Bard, Warlock, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:true-polymorph"
+            "id": "true-polymorph"
         },
         {
             "Name": "True Resurrection",
@@ -5494,7 +5494,7 @@
             "Components": "VSM",
             "Class": "Cleric, Druid",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:true-resurrection"
+            "id": "true-resurrection"
         },
         {
             "Name": "Weird",
@@ -5506,7 +5506,7 @@
             "Components": "VS",
             "Class": "Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:weird"
+            "id": "weird"
         },
         {
             "Name": "Wish",
@@ -5518,7 +5518,7 @@
             "Components": "V",
             "Class": "Sorcerer, Wizard",
             "Book": "PHB",
-            "url": "http://dnd5e.wikidot.com/spell:wish"
+            "id": "wish"
         }
     ]
 }

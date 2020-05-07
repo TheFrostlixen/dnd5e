@@ -2,10 +2,8 @@
 <head>
 <!--
 	TODO:
-		add pop-up box for spells - http://dnd5e.wikidot.com/spell:[spellname] -> $('.main-content-wrap')
 		add checkbox & cookies for spellbook
 		add option to see only prepared spellbook
-		add sort (name, level, school)
 -->
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -15,7 +13,7 @@
 </head>
 <body onLoad="load_table('#spelltable')">
 	<div>
-		<button id="reset_button" onclick="reset_list()" type="button">X</button><br/>
+		<button id="reset_button" onclick="reset_list()" type="button">X</button>
 		<table>
 			<tr>
 				<th class="col1">
@@ -112,9 +110,16 @@
 		</table>
 	</div>
 
-	<p>PHB: Player's Handbook<br/>
+	<p class="key">PHB: Player's Handbook<br/>
 	SCAG: Sword Coast Adventurer's Guide<br/>
 	XGE: Xanathar's Guide to Everything<br/>
 	EE: Elemental Evil<br/>
 	GGtR: Guildmasters' Guide to Ravnica</p>
+	
+	<div id="details_modal" class="modal">
+	  <div class="modal-content">
+		<span class="modal_close" onclick="$('#details_modal')[0].style.display = 'none'">&times;</span>
+		<p id="spell_details">Loading..</p>
+	  </div>
+	</div>
 </body></html>

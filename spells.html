@@ -2,9 +2,8 @@
 <head>
 <!--
 	TODO:
-		add checkbox & cookies for spellbook
-		add option to see only prepared spellbook
 		add section to explain how classes learn spells
+		modal: make hyperlinks open in new tab
 -->
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -15,8 +14,11 @@
 <body onLoad="load_table('#spelltable')">
 	<div>
 		<button id="reset_button" onclick="reset_list()" type="button">X</button>
+		<button id="spellbook_button" onclick="toggle_spellbook()" type="button">Show Spellbook</button>
+		<br/>
 		<table>
 			<tr>
+				<th class="col0">Spell Book</th>
 				<th class="col1">
 					Search: <input id="name" onkeyup="update_list()">
 				</th>
@@ -119,7 +121,7 @@
 	
 	<div id="details_modal" class="modal">
 	  <div class="modal-content">
-		<span class="modal_close" onclick="$('#details_modal')[0].style.display = 'none'">&times;</span>
+		<span class="modal_close" onclick="hide_modal()">&times;</span>
 		<p id="spell_details">Loading..</p>
 	  </div>
 	</div>

@@ -1,6 +1,6 @@
 @font-face { 
-	font-family: 'alois';
-	src: url(../fonts/alois.ttf);
+	font-family:'alois';
+	src:url(../fonts/alois.ttf);
 }
 
 .stripe {
@@ -16,24 +16,42 @@
 	width:18px;
 	height:18px;
 	float:left;
-	font-family:'helvetica';
 	font-style:bold;
 	font-size:12px;
-	text-decoration:none;
 	color:red;	
 	cursor:pointer;
 }
 
-#sort_div {
+#spellbook_button {
 	float:right;
+	border:2px solid rgba(255,0,0,0.5);
+	background-color:rgba(0,0,0,0.1);
+	border-radius:14px;
+	width:120px;
+	height:18px;
+	font-style:bold;
+	font-size:12px;
+	color:red;	
+	cursor:pointer;
+	outline:none;
+	display:block;
+}
+
+#spellbook_button::-moz-focus-inner,
+#reset_button::-moz-focus-inner {
+	border:0;
 }
 
 th {
 	font-size:16px;
 }
 
+.col0 {
+	min-width:50px;
+	width:50px;
+}
 .col1 {
-	width:229px ;
+	width:229px;
 }
 .col2 {
 	width:83px;
@@ -54,6 +72,7 @@ th {
 	width:118px;
 }
 .col8 {
+	min-width:120px;
 	width:300px;
 }
 .col9 {
@@ -70,17 +89,18 @@ input[type=text] {
 	width:140px;
 }
 
-input[type=checkbox] {
+#ritual,
+#concentration {
 	width:72px;
 }
 
 #class_select {
-	min-width:120px;
 	width:100%;
 }
 
 td {
 	text-align:center;
+	vertical-align:middle;
 	margin:2;
 	font-size:13px;
 	color:saddlebrown;
@@ -91,52 +111,53 @@ body {
 	font-family:'alois';
 }
 
+span:hover{
+  cursor:pointer;
+}
+
 .modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0,0.4);
+  display:none;
+  position:fixed;
+  z-index:1;
+  padding-top:100px;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  overflow:auto;
+  background-color:rgb(0,0,0);
+  background-color:rgba(0,0,0,0.4);
 }
 
 .modal-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
+  background-color:#fefefe;
+  margin:auto;
+  padding:20px;
+  border:1px solid #888;
+  width:80%;
+  height:auto;
 }
 
 .modal_close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+  color:#aaaaaa;
+  float:right;
+  font-size:28px;
+  font-weight:bold;
 }
 
 .modal_close:hover,
 .modal_close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
+  color:#000;
+  text-decoration:none;
+  cursor:pointer;
 }
 
-
-
-
-
 .content .page-title {
-	font-size: 32px;
-	color: #524200;
-	border-bottom: 3px solid;
-	border-bottom-color: #635002;
-	margin-top: 5px;
-	padding: 0;
-	line-height: 1.25em;
+	font-size:32px;
+	color:#524200;
+	border-bottom:3px solid;
+	border-bottom-color:#635002;
+	margin-top:5px;
+	padding:0;
+	line-height:1.25em;
 }

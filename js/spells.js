@@ -50,16 +50,17 @@ function update_list() {
 						  ];
 	
 	var spell_list = $('#spelltable').children();
+	spell_list.show();
+	
 	for (i = 0; i < spell_list.length; i++) {
-		$(spell_list[i]).show();
-		if ($('#spellbook_button').text() == "Hide Spellbook") { // Spellbook is active, filter through only spellbook
-			$('#spelltable td input:not(:checked)').closest('tr').hide();
-		}
-		
 		
 		for (j = 0; j < search_criteria.length; j++) {
 			(!~$($(spell_list[i]).children()[j+1]).text().toLowerCase().indexOf( search_criteria[j].toLowerCase() )) ? $(spell_list[i]).hide() : null;
 		}
+	}
+	
+	if ($('#spellbook_button').text() == "Hide Spellbook") { // Spellbook is active, filter through only spellbook
+		$('#spelltable td input:not(:checked)').closest('tr').hide();
 	}
 	
 	fix_striping();
@@ -78,6 +79,7 @@ function reset_list() {
 	$('#concentration').attr('checked', false);
 	
 	$('#spelltable').children(':hidden').show();
+	$('#spellbook_button').text("Show Spellbook");
 	fix_striping();
 }
 

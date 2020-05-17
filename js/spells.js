@@ -49,18 +49,18 @@ function update_list() {
 							$('#book').val()
 						  ];
 	
-	var spell_list = $('#spelltable').children();
-	spell_list.show();
+	$('#spelltable').children().show();
+	
+	if ($('#spellbook_button').text() == "Hide Spellbook") { // if spellbook is active, filter through only spellbook
+		$('#spelltable td input:not(:checked)').closest('tr').hide();
+	}
+	
+	var spell_list = $('#spelltable').children(":visible");
 	
 	for (i = 0; i < spell_list.length; i++) {
-		
 		for (j = 0; j < search_criteria.length; j++) {
 			(!~$($(spell_list[i]).children()[j+1]).text().toLowerCase().indexOf( search_criteria[j].toLowerCase() )) ? $(spell_list[i]).hide() : null;
 		}
-	}
-	
-	if ($('#spellbook_button').text() == "Hide Spellbook") { // Spellbook is active, filter through only spellbook
-		$('#spelltable td input:not(:checked)').closest('tr').hide();
 	}
 	
 	fix_striping();

@@ -110,7 +110,6 @@ function save_spellbook() {
 	
 	cookie += "; expires=Tue, 19 Jan 2038 03:14:07 UTC;path=/;";
 	
-	console.log(cookie);
 	document.cookie = cookie;
 }
 
@@ -137,17 +136,13 @@ function load_spellbook() {
 
 function toggle_spellbook() {
 	if ($('#spellbook_button').text() == "Show Spellbook") {
-		$('#spelltable td input:not(:checked)').closest('tr').hide();
-		fix_striping();
-		
 		$('#spellbook_button').text("Hide Spellbook");
 	}
 	else if ($('#spellbook_button').text() == "Hide Spellbook") {
-		$('#spelltable td input:not(:checked)').closest('tr').show();
-		fix_striping();
-		
 		$('#spellbook_button').text("Show Spellbook");
 	}
+	
+	update_list(); // this handles toggling the spellbook after the flag has been set now
 }
 
 function register_events() {

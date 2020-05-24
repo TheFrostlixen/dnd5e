@@ -1006,7 +1006,7 @@
             "Components": "V",
             "Class": "Bard, Cleric, Druid",
             "Book": "PHB",
-            "id": "hail-of-thorns"
+            "id": "healing-word"
         },
         {
             "Name": "Hellish Rebuke",

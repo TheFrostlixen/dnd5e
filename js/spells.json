@@ -109,6 +109,18 @@
             "id": "eldritch-blast"
         },
         {
+            "Name": "Encode Thoughts",
+            "Level": "Cantrip",
+            "School": "Enchantment",
+            "Casting Time": "1 action",
+            "Ritual": "",
+            "Concentration": "",
+            "Components": "S",
+            "Class": "Wizard",
+            "Book": "GGtR",
+            "id": "encode-thoughts"
+        },
+        {
             "Name": "Fire Bolt",
             "Level": "Cantrip",
             "School": "Evocation",

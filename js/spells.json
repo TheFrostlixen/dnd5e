@@ -1741,6 +1741,18 @@
             "id": "flaming-sphere"
         },
         {
+            "Name": "Flock of Familiars",
+            "Level": "2nd",
+            "School": "Conjuration",
+            "Casting Time": "1 minute",
+            "Ritual": "",
+            "Concentration": "Yes",
+            "Components": "VS",
+            "Class": "Warlock, Wizard",
+            "Book": "LLK",
+            "id": "flock-of-familiars"
+        },
+        {
             "Name": "Gentle Repose",
             "Level": "2nd",
             "School": "Necromancy",
@@ -2533,6 +2545,18 @@
             "id": "fly"
         },
         {
+            "Name": "Galder's Tower",
+            "Level": "3rd",
+            "School": "Conjuration",
+            "Casting Time": "10 minutes",
+            "Ritual": "",
+            "Concentration": "",
+            "Components": "VSM",
+            "Class": "Warlock, Wizard",
+            "Book": "LLK",
+            "id": "galders-tower"
+        },
+        {
             "Name": "Gaseous Form",
             "Level": "3rd",
             "School": "Transmutation",
@@ -3239,6 +3263,18 @@
             "Class": "Artificer, Bard, Cleric, Druid, Ranger",
             "Book": "PHB",
             "id": "freedom-of-movement"
+        },
+        {
+            "Name": "Galder's Speedy Courier",
+            "Level": "4th",
+            "School": "Conjuration",
+            "Casting Time": "1 action",
+            "Ritual": "",
+            "Concentration": "",
+            "Components": "VSM",
+            "Class": "Warlock, Wizard",
+            "Book": "LLK",
+            "id": "galders-speedy-courier"
         },
         {
             "Name": "Giant Insect",

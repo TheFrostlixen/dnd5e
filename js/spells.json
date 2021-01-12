@@ -33,7 +33,7 @@
             "Concentration": "",
             "Components": "VM",
             "Class": "Sorcerer, Warlock, Wizard",
-            "Book": "SCAG",
+            "Book": "SCAG, TCE",
             "id": "booming-blade"
         },
         {
@@ -165,7 +165,7 @@
             "Concentration": "",
             "Components": "VM",
             "Class": "Sorcerer, Warlock, Wizard",
-            "Book": "SCAG",
+            "Book": "SCAG, TCE",
             "id": "green-flame-blade"
         },
         {
@@ -225,7 +225,7 @@
             "Concentration": "",
             "Components": "V",
             "Class": "Sorcerer, Warlock, Wizard",
-            "Book": "SCAG",
+            "Book": "SCAG, TCE",
             "id": "lightning-lure"
         },
         {
@@ -275,6 +275,18 @@
             "Class": "Artificer, Bard, Sorcerer, Wizard",
             "Book": "PHB",
             "id": "message"
+        },
+        {
+            "Name": "Mind Sliver",
+            "Level": "Cantrip",
+            "School": "Enchantment",
+            "Casting Time": "1 action",
+            "Ritual": "",
+            "Concentration": "",
+            "Components": "V",
+            "Class": "Sorcerer, Warlock, Wizard",
+            "Book": "TCE",
+            "id": "mind-sliver"
         },
         {
             "Name": "Minor Illusion",
@@ -441,7 +453,7 @@
             "Concentration": "",
             "Components": "V",
             "Class": "Sorcerer, Warlock, Wizard",
-            "Book": "SCAG",
+            "Book": "SCAG, TCE",
             "id": "sword-burst"
         },
         {
@@ -1295,6 +1307,18 @@
             "Class": "Bard, Druid, Ranger",
             "Book": "PHB",
             "id": "speak-with-animals"
+        },
+        {
+            "Name": "Tasha's Caustic Brew",
+            "Level": "1st",
+            "School": "Evocation",
+            "Casting Time": "1 action",
+            "Ritual": "",
+            "Concentration": "Yes",
+            "Components": "VSM",
+            "Class": "Artificer, Sorcerer, Wizard",
+            "Book": "TCE",
+            "id": "tashas-caustic-brew"
         },
         {
             "Name": "Tasha's Hideous Laughter",
@@ -2209,6 +2233,18 @@
             "id": "suggestion"
         },
         {
+            "Name": "Tasha's Mind Whip",
+            "Level": "2nd",
+            "School": "Enchantment",
+            "Casting Time": "1 action",
+            "Ritual": "",
+            "Concentration": "",
+            "Components": "V",
+            "Class": "Sorcerer, Wizard",
+            "Book": "TCE",
+            "id": "tashas-mind-whip"
+        },
+        {
             "Name": "Warding Bond",
             "Level": "2nd",
             "School": "Abjuration",
@@ -2617,6 +2653,18 @@
             "id": "hypnotic-pattern"
         },
         {
+            "Name": "Intellect Fortress",
+            "Level": "3rd",
+            "School": "Abjuration",
+            "Casting Time": "1 action",
+            "Ritual": "",
+            "Concentration": "Yes",
+            "Components": "V",
+            "Class": "Artificer, Bard, Sorcerer, Warlock, Wizard",
+            "Book": "TCE",
+            "id": "intellect-fortress"
+        },
+        {
             "Name": "Leomund's Tiny Hut",
             "Level": "3rd",
             "School": "Evocation",
@@ -2867,6 +2915,18 @@
             "Class": "Cleric",
             "Book": "PHB",
             "id": "spirit-guardians"
+        },
+        {
+            "Name": "Spirit Shroud",
+            "Level": "3rd",
+            "School": "Necromancy",
+            "Casting Time": "1 bonus action",
+            "Ritual": "",
+            "Concentration": "Yes",
+            "Components": "VS",
+            "Class": "Cleric, Paladin, Warlock, Wizard",
+            "Book": "TCE",
+            "id": "spirit-shroud"
         },
         {
             "Name": "Stinking Cloud",
@@ -3515,6 +3575,18 @@
             "Class": "Sorcerer, Wizard",
             "Book": "EE, XGE",
             "id": "storm-sphere"
+        },
+        {
+            "Name": "Summon Aberration",
+            "Level": "4th",
+            "School": "Conjuration",
+            "Casting Time": "1 action",
+            "Ritual": "",
+            "Concentration": "Yes",
+            "Components": "VSM",
+            "Class": "Warlock, Wizard",
+            "Book": "TCE",
+            "id": "summon-aberration"
         },
         {
             "Name": "Summon Greater Demon",
@@ -4705,6 +4777,18 @@
             "id": "sunbeam"
         },
         {
+            "Name": "Tasha's Otherworldly Guise",
+            "Level": "6th",
+            "School": "Transmutation",
+            "Casting Time": "1 bonus action",
+            "Ritual": "",
+            "Concentration": "Yes",
+            "Components": "VSM",
+            "Class": "Sorcerer, Warlock, Wizard",
+            "Book": "TCE",
+            "id": "tashas-otherworldly-guise"
+        },
+        {
             "Name": "Tenser's Transformation",
             "Level": "6th",
             "School": "Transmutation",
@@ -4835,6 +4919,18 @@
             "Class": "Cleric",
             "Book": "PHB",
             "id": "divine-word"
+        },
+        {
+            "Name": "Dream of the Blue Veil",
+            "Level": "7th",
+            "School": "Conjuration",
+            "Casting Time": "10 minutes",
+            "Ritual": "",
+            "Concentration": "",
+            "Components": "VSM",
+            "Class": "Bard, Sorcerer, Warlock, Wizard",
+            "Book": "TCE",
+            "id": "dream-of-the-blue-veil"
         },
         {
             "Name": "Etherealness",
@@ -5351,6 +5447,18 @@
             "Class": "Cleric, Warlock, Wizard",
             "Book": "PHB",
             "id": "astral-projection"
+        },
+        {
+            "Name": "Blade of Disaster",
+            "Level": "9th",
+            "School": "Conjuration",
+            "Casting Time": "1 bonus action",
+            "Ritual": "",
+            "Concentration": "Yes",
+            "Components": "VS",
+            "Class": "Sorcerer, Warlock, Wizard",
+            "Book": "TCE",
+            "id": "blade-of-disaster"
         },
         {
             "Name": "Foresight",

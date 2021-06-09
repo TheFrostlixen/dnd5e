@@ -2233,6 +2233,18 @@
             "id": "suggestion"
         },
         {
+            "Name": "Summon Beast",
+            "Level": "2nd",
+            "School": "Conjuration",
+            "Casting Time": "1 action",
+            "Ritual": "",
+            "Concentration": "Yes",
+            "Components": "VSM",
+            "Class": "Druid, Ranger",
+            "Book": "TCE",
+            "id": "summon-beast"
+        },
+        {
             "Name": "Tasha's Mind Whip",
             "Level": "2nd",
             "School": "Enchantment",
@@ -2941,6 +2953,18 @@
             "id": "stinking-cloud"
         },
         {
+            "Name": "Summon Fey",
+            "Level": "3rd",
+            "School": "Conjuration",
+            "Casting Time": "",
+            "Ritual": "",
+            "Concentration": "Yes",
+            "Components": "",
+            "Class": "Druid, Ranger, Warlock, Wizard",
+            "Book": "TCE",
+            "id": "summon-fey"
+        },
+        {
             "Name": "Summon Lesser Demons",
             "Level": "3rd",
             "School": "Conjuration",
@@ -2951,6 +2975,30 @@
             "Class": "Warlock, Wizard",
             "Book": "XGE",
             "id": "summon-lesser-demons"
+        },
+        {
+            "Name": "Summon Shadowspawn",
+            "Level": "3rd",
+            "School": "Conjuration",
+            "Casting Time": "",
+            "Ritual": "",
+            "Concentration": "Yes",
+            "Components": "",
+            "Class": "Warlock, Wizard",
+            "Book": "TCE",
+            "id": "summon-shadowspawn"
+        },
+        {
+            "Name": "Summon Undead",
+            "Level": "3rd",
+            "School": "Necromancy",
+            "Casting Time": "",
+            "Ritual": "",
+            "Concentration": "Yes",
+            "Components": "",
+            "Class": "Warlock, Wizard",
+            "Book": "TCE",
+            "id": "summon-undead"
         },
         {
             "Name": "Thunder Step",
@@ -3589,6 +3637,30 @@
             "id": "summon-aberration"
         },
         {
+            "Name": "Summon Construct",
+            "Level": "4th",
+            "School": "Conjuration",
+            "Casting Time": "",
+            "Ritual": "",
+            "Concentration": "Yes",
+            "Components": "",
+            "Class": "Artificer, Wizard",
+            "Book": "TCE",
+            "id": "summon-construct"
+        },
+        {
+            "Name": "Summon Elemental",
+            "Level": "4th",
+            "School": "Conjuration",
+            "Casting Time": "",
+            "Ritual": "",
+            "Concentration": "Yes",
+            "Components": "",
+            "Class": "Druid, Ranger, Wizard",
+            "Book": "TCE",
+            "id": "summon-elemental"
+        },
+        {
             "Name": "Summon Greater Demon",
             "Level": "4th",
             "School": "Conjuration",
@@ -4213,6 +4285,18 @@
             "id": "steel-wind-strike"
         },
         {
+            "Name": "Summon Celestial",
+            "Level": "5th",
+            "School": "Conjuration",
+            "Casting Time": "",
+            "Ritual": "",
+            "Concentration": "Yes",
+            "Components": "",
+            "Class": "Cleric, Paladin",
+            "Book": "TCE",
+            "id": "summon-celestial"
+        },
+        {
             "Name": "Swift Quiver",
             "Level": "5th",
             "School": "Transmutation",
@@ -4763,6 +4847,18 @@
             "Class": "Warlock, Wizard",
             "Book": "XGE",
             "id": "soul-cage"
+        },
+        {
+            "Name": "Summon Fiend",
+            "Level": "6th",
+            "School": "Conjuration",
+            "Casting Time": "",
+            "Ritual": "",
+            "Concentration": "Yes",
+            "Components": "",
+            "Class": "Warlock, Wizard",
+            "Book": "TCE",
+            "id": "summon-fiend"
         },
         {
             "Name": "Sunbeam",

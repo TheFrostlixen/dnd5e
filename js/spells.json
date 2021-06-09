@@ -3634,7 +3634,7 @@
             "Components": "VSM",
             "Class": "Warlock, Wizard",
             "Book": "TCE",
-            "id": "summon-aberration"
+            "id": "summon_aberration"
         },
         {
             "Name": "Summon Construct",

@@ -38,7 +38,7 @@ function build_html_table(selector, spells_list) {
 }
 
 function update_list() {
-	var search_criteria = [ $('#name').val(),
+	var search_criteria = [ $('#name').val().trim(),
 							$('#level').val(),
 							$('#school').val(),
 							$('#cast_time').val(),

@@ -8,6 +8,6 @@ INSERT INTO r_spell_level (spell_level, spell_level_string) VALUES (5, '5th');
 INSERT INTO r_spell_level (spell_level, spell_level_string) VALUES (6, '6th');
 INSERT INTO r_spell_level (spell_level, spell_level_string) VALUES (7, '7th');
 INSERT INTO r_spell_level (spell_level, spell_level_string) VALUES (8, '8th');
-INSERT INTO r_spell_level (spell_level, spell_level_string) VALUES (8, '9th');
+INSERT INTO r_spell_level (spell_level, spell_level_string) VALUES (9, '9th');
 
 COMMIT;

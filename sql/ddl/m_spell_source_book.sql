@@ -2,7 +2,7 @@
 CREATE TABLE m_spell_source_book
 (
     spell_name          VARCHAR2(50 CHAR)   CONSTRAINT mssb_spell_nn NOT NULL,
-    book_code           VARCHAR2(5 CHAR)    CONSTRAINT mssb_book_nn NOT NULL,
+    book_code           VARCHAR2(5 CHAR)    CONSTRAINT mssb_book_nn NOT NULL
 );
 
 -- COMMENTS

@@ -1,14 +1,9 @@
 -- Aggregate table to map classes with their allowable spells
 CREATE TABLE m_spell_class
 (
-    spell_name          VARCHAR2(50 CHAR)   CONSTRAINT msc_spell_nn NOT NULL,
-    class_code          VARCHAR2(3 CHAR)    CONSTRAINT msc_class_nn NOT NULL
+    spell_name          VARCHAR(50)   NOT NULL,
+    class_code          VARCHAR(3)    NOT NULL
 );
-
--- COMMENTS
-COMMENT ON TABLE m_spell_class IS 'Maps classes to the spells available to those classes.';
-COMMENT ON COLUMN m_spell_class.spell_name IS 'Name of spell as it appears in source material, foreign key to s_spell.';
-COMMENT ON COLUMN m_spell_class.class_code IS 'Class code, foreign key to r_class.';
 
 -- PRIMARY KEY
 ALTER TABLE m_spell_class

@@ -896,8 +896,8 @@
             "Ritual": "",
             "Concentration": "Yes",
             "Components": "VS",
-            "Class": "Druid",
-            "Book": "PHB",
+            "Class": "Druid, Ranger",
+            "Book": "PHB, TCE",
             "id": "entangle"
         },
         {
@@ -1232,8 +1232,8 @@
             "Ritual": "",
             "Concentration": "Yes",
             "Components": "V",
-            "Class": "Paladin",
-            "Book": "PHB",
+            "Class": "Paladin, Ranger",
+            "Book": "PHB, TCE",
             "id": "searing-smite"
         },
         {
@@ -1436,8 +1436,8 @@
             "Ritual": "",
             "Concentration": "",
             "Components": "VSM",
-            "Class": "Artificer, Cleric, Paladin",
-            "Book": "PHB",
+            "Class": "Artificer, Cleric, Paladin, Ranger",
+            "Book": "PHB, TCE",
             "id": "aid"
         },
         {
@@ -1688,8 +1688,8 @@
             "Ritual": "",
             "Concentration": "Yes",
             "Components": "VSM",
-            "Class": "Artificer, Bard, Cleric, Druid, Sorcerer",
-            "Book": "PHB",
+            "Class": "Artificer, Bard, Cleric, Druid, Ranger, Sorcerer",
+            "Book": "PHB, TCE",
             "id": "enhance-ability"
         },
         {
@@ -1796,8 +1796,8 @@
             "Ritual": "",
             "Concentration": "Yes",
             "Components": "VSM",
-            "Class": "Druid, Sorcerer, Wizard",
-            "Book": "PHB",
+            "Class": "Druid, Ranger, Sorcerer, Wizard",
+            "Book": "PHB, TCE",
             "id": "gust-of-wind"
         },
         {
@@ -1928,8 +1928,8 @@
             "Ritual": "",
             "Concentration": "Yes",
             "Components": "VS",
-            "Class": "Artificer, Paladin, Wizard",
-            "Book": "PHB",
+            "Class": "Artificer, Paladin, Ranger, Wizard",
+            "Book": "PHB, TCE",
             "id": "magic-weapon"
         },
         {
@@ -2233,6 +2233,18 @@
             "id": "suggestion"
         },
         {
+            "Name": "Summon Beast",
+            "Level": "2nd",
+            "School": "Conjuration",
+            "Casting Time": "1 action",
+            "Ritual": "",
+            "Concentration": "Yes",
+            "Components": "VSM",
+            "Class": "Druid, Ranger",
+            "Book": "TCE",
+            "id": "summon-beast"
+        },
+        {
             "Name": "Tasha's Mind Whip",
             "Level": "2nd",
             "School": "Enchantment",
@@ -2492,8 +2504,8 @@
             "Ritual": "",
             "Concentration": "Yes",
             "Components": "VS",
-            "Class": "Paladin",
-            "Book": "PHB",
+            "Class": "Paladin, Ranger",
+            "Book": "PHB, TCE",
             "id": "elemental-weapon"
         },
         {
@@ -2756,8 +2768,8 @@
             "Ritual": "Yes",
             "Concentration": "",
             "Components": "VS",
-            "Class": "Cleric, Druid",
-            "Book": "PHB",
+            "Class": "Cleric, Druid, Ranger",
+            "Book": "PHB, TCE",
             "id": "meld-into-stone"
         },
         {
@@ -2840,8 +2852,8 @@
             "Ritual": "",
             "Concentration": "",
             "Components": "VSM",
-            "Class": "Artificer, Cleric, Paladin",
-            "Book": "PHB",
+            "Class": "Artificer, Cleric, Paladin, Ranger",
+            "Book": "PHB, TCE",
             "id": "revivify"
         },
         {
@@ -2941,6 +2953,18 @@
             "id": "stinking-cloud"
         },
         {
+            "Name": "Summon Fey",
+            "Level": "3rd",
+            "School": "Conjuration",
+            "Casting Time": "",
+            "Ritual": "",
+            "Concentration": "Yes",
+            "Components": "",
+            "Class": "Druid, Ranger, Warlock, Wizard",
+            "Book": "TCE",
+            "id": "summon-fey"
+        },
+        {
             "Name": "Summon Lesser Demons",
             "Level": "3rd",
             "School": "Conjuration",
@@ -2951,6 +2975,30 @@
             "Class": "Warlock, Wizard",
             "Book": "XGE",
             "id": "summon-lesser-demons"
+        },
+        {
+            "Name": "Summon Shadowspawn",
+            "Level": "3rd",
+            "School": "Conjuration",
+            "Casting Time": "",
+            "Ritual": "",
+            "Concentration": "Yes",
+            "Components": "",
+            "Class": "Warlock, Wizard",
+            "Book": "TCE",
+            "id": "summon-shadowspawn"
+        },
+        {
+            "Name": "Summon Undead",
+            "Level": "3rd",
+            "School": "Necromancy",
+            "Casting Time": "",
+            "Ritual": "",
+            "Concentration": "Yes",
+            "Components": "",
+            "Class": "Warlock, Wizard",
+            "Book": "TCE",
+            "id": "summon-undead"
         },
         {
             "Name": "Thunder Step",
@@ -3248,8 +3296,8 @@
             "Ritual": "",
             "Concentration": "Yes",
             "Components": "VS",
-            "Class": "Druid, Sorcerer",
-            "Book": "PHB",
+            "Class": "Druid, Ranger, Sorcerer",
+            "Book": "PHB, TCE",
             "id": "dominate-beast"
         },
         {
@@ -3586,7 +3634,31 @@
             "Components": "VSM",
             "Class": "Warlock, Wizard",
             "Book": "TCE",
-            "id": "summon-aberration"
+            "id": "summon_aberration"
+        },
+        {
+            "Name": "Summon Construct",
+            "Level": "4th",
+            "School": "Conjuration",
+            "Casting Time": "",
+            "Ritual": "",
+            "Concentration": "Yes",
+            "Components": "",
+            "Class": "Artificer, Wizard",
+            "Book": "TCE",
+            "id": "summon-construct"
+        },
+        {
+            "Name": "Summon Elemental",
+            "Level": "4th",
+            "School": "Conjuration",
+            "Casting Time": "",
+            "Ritual": "",
+            "Concentration": "Yes",
+            "Components": "",
+            "Class": "Druid, Ranger, Wizard",
+            "Book": "TCE",
+            "id": "summon-elemental"
         },
         {
             "Name": "Summon Greater Demon",
@@ -3956,7 +4028,7 @@
             "Ritual": "",
             "Concentration": "",
             "Components": "VSM",
-            "Class": "Artificer, Bard, Cleric, Druid",
+            "Class": "Artificer, Bard, Cleric, Druid, Ranger",
             "Book": "PHB",
             "id": "greater-restoration"
         },
@@ -4211,6 +4283,18 @@
             "Class": "Ranger, Wizard",
             "Book": "XGE",
             "id": "steel-wind-strike"
+        },
+        {
+            "Name": "Summon Celestial",
+            "Level": "5th",
+            "School": "Conjuration",
+            "Casting Time": "",
+            "Ritual": "",
+            "Concentration": "Yes",
+            "Components": "",
+            "Class": "Cleric, Paladin",
+            "Book": "TCE",
+            "id": "summon-celestial"
         },
         {
             "Name": "Swift Quiver",
@@ -4763,6 +4847,18 @@
             "Class": "Warlock, Wizard",
             "Book": "XGE",
             "id": "soul-cage"
+        },
+        {
+            "Name": "Summon Fiend",
+            "Level": "6th",
+            "School": "Conjuration",
+            "Casting Time": "",
+            "Ritual": "",
+            "Concentration": "Yes",
+            "Components": "",
+            "Class": "Warlock, Wizard",
+            "Book": "TCE",
+            "id": "summon-fiend"
         },
         {
             "Name": "Sunbeam",

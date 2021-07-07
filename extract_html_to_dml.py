@@ -33,8 +33,7 @@ for sp in data["spells"]:
 		
 	except Exception as e:
 		error_stack.append(sp["Name"])
-		print(e)
-		#print("!*!*! ERROR on " + sp["Name"])
+		print("!*!*! ERROR on " + sp["Name"] + ": " + e)
 
 print('Errors:')
 print(error_stack)
